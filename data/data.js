@@ -63,6 +63,18 @@ var webData = {
                             "description":"小米云服务可操作手机笔记本"
                         },
                         {
+                            "homePage":"https://i.mi.com/note/h5",
+                            "icon":"https://i.mi.com/favicon.ico",
+                            "name":"Cloud Notes",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://web.vip.miui.com/page/info/mio/mio/singleBoard?boardId=36106637&channel=boardLive&fromPathname=mioBoardLive&app_version=dev.230112",
+                            "icon":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAeFBMVEUAAAD/Pin/Pyn+Pij/QCj/Pin/QCj+PSn+Pir/Pyj/QCn/Pyn9Pin/QCD+Pin/Pin+Pin/Pir+Pin+Pin/////5+T/VkT/t6//z8n/b1//n5T/h3n/k4f+Sjb/8/H/29f/w73/q6H/YlH+emz/e2z/8/L/q6L+npR7WrzAAAAAE3RSTlMA37+AQKAgcO9QMK+QEO/PsI9grtRi+gAAA6BJREFUWMOtmIt6oyAQhaPGpEnavY2MgNeYtPv+b7gDgSKO6WXJ/31NFMNxODNQdLPK7vCnKE95lmXwDp3keVnsty+br3Hcn57gQ57y/fEzlZcigy+RPe8+kNnm8A3Ke1Ivv4FIl9pm8G2yFa/28F8US50CIEEpXYfYR/5AAttZIWeQQBZKvYQkfr8HBIlsQ0Bp5D6gZI4soKRiyiCZH6GGUu1mRd1IKf1xVVU6XKnXwFl5x2vQWFWDO5xIqAVPV62Bs7zN1lVElFUl8XZZ0Q8VQJBdYWbSEQLSXvT9WzqYwOBle7mgBs8u8rq3Kr7/OdzRyWq4y4EWNG7Dq7dLgMXLNnCXP1HS0EBhjWAYyK4oCzRipbXu7E21Ps8DLFhdN9Th4gfqPHCy1WSdGn2ALQTKRfYBhRmQIq4VCZkDfPfP5UMBaPr6CzN+LYVqY0Wc6tb7J1zyhHV+iBeAxUzTJgy4RkLKZ196r2qjhvEyGQu1tiN9eXwtkLZzDPtQ01woGG3v1SExUhmgYVFGOow3EorjsQydK/MhLqNLqLY3WLKJf0t4M4RLNOGzFSIS94VQuqoWroTp6xyXEc7C1utC3kT6kyiswBQb4ae6sr8y9jGh4JCYehPF1PJFpHOFg8Kk0aRf3vdId+gcXV9EpNNpb9ErJhRQrjNfRK7WMevUX2e46O4LadeZLyLaRnJ+nxmC+b1ZW7D5IlLbQSt1aW5xYNPo5r7Q4ErHLyK8jO4TTREbf0iTZmXE4HMtZLzTBjOW0R41voxkvQSZUJizHcnFjD4izjQX+hlNtleI1xA/wMuqULSw/ZqlRogR4E3ENO5fuWAMkVAJD6HcPMNDKOIdf8pu+wAPYet2kMkco21N2t4vZ63nFtYYm483yAVrvVxgDY0fJS3ejOIV4Ipqgq413ZRu6HxqGzrt6AKAbaOf0SfbjEYmDW0julpDfa4FNP1ZSJCD7oezqEFSX9um1ausKxXNfSIqSRQCgYQApwqpZ0eftDKOcBU3oYHaOvVqDwIlf1gTAoyQ7GWFgryycroG5YRMmzkxZ4EdycR506N8IyG6JVY4vkEjYCaEDdDl62UplLPnR9Uj9qrWnRBjhSj6vpkLqQpMmxfiz5AnYODtswMGbyvDo2hSdWfhNULazD3wx/XHP/inv4pI1yGfMvg2T+QPZ1fCNzntHvIiKvd1uB5V9sVBPTMZFlaRf/qyruAq6xy3+6LM2evDn6fyeX9YN+YfwyRhQug5cZAAAAAASUVORK5CYII=",
+                            "name":"小米社区",
+                            "description":""
+                        },
+                        {
                             "homePage":"https://sspai.com/",
                             "icon":"https://cdn-static.sspai.com/favicon/sspai.ico",
                             "name":"少数派",
@@ -168,94 +180,6 @@ var webData = {
                     ]
                 },
                 {
-                    "tagType": "AI工具",
-                    "tagList": [
-                        {
-                            "homePage":"https://yiyan.baidu.com/",
-                            "icon":"https://nlp-eb.cdn.bcebos.com/logo/favicon.ico",
-                            "name":"文心一言",
-                            "description":"百度大模型工具"
-                        },
-                        {
-                            "homePage":"https://xinghuo.xfyun.cn/",
-                            "icon":"https://xinghuo.xfyun.cn/favicon.ico",
-                            "name":"讯飞星火",
-                            "description":"科大讯飞大模型产品"
-                        },
-                        {
-                            "homePage":"https://kimi.moonshot.cn/",
-                            "icon":"https://kimi.moonshot.cn/favicon.ico",
-                            "name":"Kimi.ai",
-                            "description":""
-                        },                   
-                        {
-                            "homePage":"https://www.doubao.com/chat/",
-                            "icon":"https://lf-cdn-tos.bytescm.com/obj/static/doubao_web/logo-icon.png",
-                            "name":"豆包",
-                            "description":"字节推出的 ChatGPT 类产品，免费使用。"
-                        },
-                        {
-                            "homePage":"https://chatglm.cn/main/alltoolsdetail",
-                            "icon":"https://chatglm.cn/favicon.ico",
-                            "name":"智谱清言",
-                            "description":""
-                        },
-                        {
-                            "homePage":"https://www.aiyjs.com/",
-                            "icon":"https://www.aiyjs.com/wp-content/uploads/2024/02/cropped-1709004251-AI%E7%A0%94%E7%A9%B6%E6%89%80.webp",
-                            "name":"AI研究所",
-                            "description":""
-                        },
-                        {
-                            "homePage":"https://gpt4o.so/zh-CN/app/89a94649e8ea27d2033f07b33ef3d102",
-                            "icon":"https://gpt4o.so/favicon.ico",
-                            "name":"gpt4o",
-                            "description":"免费无需注册在此GTP4工具"
-                        },
-                        {
-                            "homePage":"https://texttospeech.im/zh-CN",
-                            "icon":"https://texttospeech.im/favicon.ico",
-                            "name":"文本转语音",
-                            "description":"免费在线文本转语音"
-                        },
-                        {
-                            "homePage":"https://elevenlabs.io/",
-                            "icon":"https://elevenlabs.io/favicon.ico",
-                            "name":"ElevenLabs",
-                            "description":"在线文本转语音"
-                        },
-                        {
-                            "homePage":"https://lmstudio.ai/",
-                            "icon":"https://lmstudio.ai/assets/favicon.ico",
-                            "name":"lmstudio",
-                            "description":"离线llvms人工智能工具"
-                        },
-                        {
-                            "homePage":"https://stablediffusion3.net/zh-CN/app",
-                            "icon":"https://stablediffusion3.net/favicon.ico",
-                            "name":"stablediffusion3",
-                            "description":"在线文本生成图片"
-                        }
-                    ]
-                },
-                {
-                    "tagType": "AI平台",
-                    "tagList": [
-                        {
-                            "homePage":"https://www.coze.cn/",
-                            "icon":"https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png",
-                            "name":"扣子",
-                            "description":"抖音开发的AI平台，通过配置创造自己的专属AI"
-                        },
-                        {
-                            "homePage":"https://dify.ai/zh,https://docs.dify.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose",
-                            "icon":"https://framerusercontent.com/images/KWDRAMQLGjoMFBAjNjoCFMP7XI.png",
-                            "name":"dify",
-                            "description":"开源支持多模型的ai编辑平台"
-                        }
-                    ]
-                },
-                {
                     "tagType": "博客",
                     "tagList": [
                         {
@@ -293,6 +217,12 @@ var webData = {
                             "icon": "https://www.cnblogs.com/favicon.ico",
                             "name": "博客园",
                             "description": ""
+                        },
+                        {
+                            "homePage":"https://infos.imhcg.cn/",
+                            "icon":"https://infos.imhcg.cn/icon.svg",
+                            "name":"Engineering Blogs",
+                            "description":"英文博客梗概"
                         }
                         
                     ]
@@ -412,16 +342,40 @@ var webData = {
                             "description":"综合资源导航网站"
                         },
                         {
-                            "homePage":"https://80kk.app/",
-                            "icon":"",
-                            "name":"80kk",
-                            "description":"视频网站导航页"
-                        },
-                        {
                             "homePage":"https://www.bidianer.com/",
                             "icon":"https://www.bidianer.com/favicon.ico",
                             "name":"笔点",
                             "description":"用心做简洁、可自定义的网址导航！"
+                        },
+                        {
+                            "homePage":"https://nav.qinight.com/",
+                            "icon":"https://nav.qinight.com/static/image/favicon.ico",
+                            "name":"柒夜导航",
+                            "description":"复合型导航网站，包含图片、视频、资源等"
+                        },
+                        {
+                            "homePage":"https://hao.mfsc123.com/",
+                            "icon":"https://hao.mfsc123.com/favicon.ico",
+                            "name":"免费商用导航",
+                            "description":"免费图片、视频等资源分析网站"
+                        },
+                        {
+                            "homePage":"https://www.xue8nav.com/",
+                            "icon":"https://www.xue8nav.com/favicon.ico",
+                            "name":"学吧导航",
+                            "description":"四十万学习爱好者都在用的学霸导航网站"
+                        },
+                        {
+                            "homePage":"http://www.zoudupai.com/",
+                            "icon":"",
+                            "name":"走读派读书导航",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://daohangxie.com/",
+                            "icon":"https://daohangxie.com/wp-content/uploads/2024/06/cropped-New-Project-32x32.png",
+                            "name":"导航蟹",
+                            "description":""
                         }
                     ]
                 },
@@ -582,6 +536,18 @@ var webData = {
                             "icon":"https://symbl.cc/favicon.ico",
                             "name":"Unicode 符号表",
                             "description":"unicode不可见字符"
+                        },
+                        {
+                            "homePage":"https://jiemahao.com/",
+                            "icon":"https://jiemahao.com/favicon.ico",
+                            "name":"接码平台",
+                            "description":"使用网站提供的手机号接收短信验证码"
+                        },
+                        {
+                            "homePage":"https://lovelive.tools/",
+                            "icon":"https://lovelive.tools/icon.png",
+                            "name":"渣男说话语录",
+                            "description":""
                         }
                     ]
                 }
@@ -632,7 +598,7 @@ var webData = {
                             "description":""
                         },
                         {
-                            "homePage":"https://doris.apache.org/zh-CN/",
+                            "homePage":"https://doris.apache.org/zh-CN/download,https://doris.apache.org/zh-CN/docs/gettingStarted/quick-start",
                             "icon":"https://doris.apache.org/favicon.ico",
                             "name":"Doris",
                             "description":"国产基于 MPP 架构的高性能、实时的分析型数据库"
@@ -701,13 +667,13 @@ var webData = {
                             "description": ""
                         },
                         {
-                            "homePage":"http://www.hdp.link/,https://pan.baidu.com/s/1z_Yk-inzpZnOvtG8EHo_ow?pwd=wj68",
+                            "homePage":"http://www.hdp.link/,https://pan.baidu.com/s/1z_Yk-inzpZnOvtG8EHo_ow?pwd=wj68,https://www.alipan.com/s/99Y3MRpJ6kh",
                             "icon":"http://www.hdp.link/images/favicon.ico",
                             "name":"HiDataPlus(HDP)官网",
                             "description":""
                         },
                         {
-                            "homePage":"https://mp.weixin.qq.com/s/4VbYH_5K4sDkYgfXhWNbLQ",
+                            "homePage":"https://mp.weixin.qq.com/s/c1JlS889Irdpye0MwTupcg,https://mp.weixin.qq.com/s/KrhgKnbca1IuSR65UcbCzQ",
                             "icon":"https://mp.weixin.qq.com/favicon.ico",
                             "name":"hidataPlus公众号",
                             "description":""
@@ -901,7 +867,7 @@ var webData = {
                             "description":"官网，打开很卡"
                         },
                         {
-                            "homePage":"https://nacos.io/zh-cn/docs/what-is-nacos.html",
+                            "homePage":"https://nacos.io/zh-cn/docs/what-is-nacos.html,https://github.com/alibaba/nacos",
                             "icon":"https://nacos.io/favicon.ico",
                             "name":"Nacos",
                             "description":"国产服务中心"
@@ -923,13 +889,43 @@ var webData = {
                             "homePage":"https://github.com/docker/compose",
                             "icon":"https://github.com/favicon.ico",
                             "name":"docker-compose",
-                            "description":""
+                            "description":"github地址"
                         },
                         {
                             "homePage":"https://kubernetes.io/zh-cn/releases/",
                             "icon":"https://kubernetes.io/icons/favicon-64.png",
                             "name":"kubernetes",
                             "description":"k8s docker容器管理软件"
+                        },
+                        {
+                            "homePage":"https://kind.sigs.k8s.io/",
+                            "icon":"https://kind.sigs.k8s.io/favicon.ico",
+                            "name":"kind",
+                            "description":"基于golang开发的k8s系统工具"
+                        },
+                        {
+                            "homePage":"https://docs.tigera.io/calico/latest/getting-started/kubernetes/quickstart,https://github.com/projectcalico/calico,https://raw.githubusercontent.com/projectcalico/calico/v3.28.2/manifests/tigera-operator.yaml",
+                            "icon":"https://docs.tigera.io/img/favicon.png",
+                            "name":"calico",
+                            "description":"k8s虚拟网络模块"
+                        },
+                        {
+                            "homePage":"https://coredns.io/,https://github.com/coredns/coredns",
+                            "icon":"https://coredns.io/images/favicon.png",
+                            "name":"k8s集群coredns工具",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://github.com/kubernetes-sigs/metrics-server/,https://kubernetes.io/zh-cn/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/,https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.2/components.yaml",
+                            "icon":"https://kubernetes.io/icons/favicon-64.png",
+                            "name":"Metrics Server",
+                            "description":"k8s集群指标工具"
+                        },
+                        {
+                            "homePage":"https://github.com/kubernetes/dashboard,https://kubernetes.io/zh-cn/docs/tasks/access-application-cluster/web-ui-dashboard/,https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml",
+                            "icon":"https://kubernetes.io/icons/favicon-64.png",
+                            "name":"dashboard",
+                            "description":"k8s集群web管理工具"
                         }
                     ]
 
@@ -1019,22 +1015,22 @@ var webData = {
                     "tagType": "数据库",
                     "tagList": [
                         {
-                            "homePage": "https://dev.mysql.com/downloads/mysql/,https://downloads.mysql.com/archives/community/",
+                            "homePage": "https://dev.mysql.com/downloads/mysql/,https://downloads.mysql.com/archives/community/,https://github.com/mysql/mysql-server",
                             "icon": "https://labs.mysql.com/common/themes/sakila/favicon.ico",
                             "name": "mysql",
                             "description": "主流开源关系型数据库。"
-                        },
+                        },                        
                         {
+                            "homePage": "https://www.navicat.com.cn/download/direct-download?product=navicat170_premium_lite_cs_x64.exe&location=1",
+                            "icon": "https://labs.mysql.com/common/themes/sakila/favicon.ico",
+                            "name": "navicat",
+                            "description": "mysql navicat免费链接工具"
+                        }
+                        ,{
                             "homePage":"https://mariadb.com/downloads/",
                             "icon":"https://mariadb.com/favicon/favicon-32x32.png",
                             "name":"MariaDB",
                             "description":"MariaDB 开源版mysql"
-                        },
-                        {
-                            "homePage": "https://redis.io/download/",
-                            "icon": "https://redis.io/wp-content/themes/wpx/assets/images/favicons/favicon-32x32.png?v=A0mpW2gQlj",
-                            "name": "Redis",
-                            "description": "流行Key-value nosql内存数据库。"
                         },
                         {
                             "homePage":"https://www.enterprisedb.com/downloads/postgres-postgresql-downloads",
@@ -1071,6 +1067,23 @@ var webData = {
                             "icon":"https://www.influxdata.com/wp-content/uploads/cubo.svg",
                             "name":"influxdata",
                             "description":"时序数据库"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "键值对数据库",
+                    "tagList": [
+                        {
+                            "homePage": "https://redis.io/download/",
+                            "icon": "https://redis.io/wp-content/themes/wpx/assets/images/favicons/favicon-32x32.png?v=A0mpW2gQlj",
+                            "name": "Redis",
+                            "description": "流行Key-value nosql内存数据库。"
+                        },
+                        {
+                            "homePage":"https://etcd.io/,https://github.com/etcd-io/etcd",
+                            "icon":"https://etcd.io/favicons/favicon.ico",
+                            "name":"etcd",
+                            "description":"golang开发键值对数据库"
                         }
                     ]
                 },
@@ -1122,6 +1135,195 @@ var webData = {
             ]
         },
         {
+            "type": "AI",
+            "icon": "fa fa-connectdevelop",
+            "tag": [
+                {
+                    "tagType": "AI工具",
+                    "tagList": [
+                        {
+                            "homePage":"https://yiyan.baidu.com/",
+                            "icon":"https://nlp-eb.cdn.bcebos.com/logo/favicon.ico",
+                            "name":"文心一言",
+                            "description":"百度大模型工具"
+                        },
+                        {
+                            "homePage":"https://xinghuo.xfyun.cn/",
+                            "icon":"https://xinghuo.xfyun.cn/favicon.ico",
+                            "name":"讯飞星火",
+                            "description":"科大讯飞大模型产品"
+                        },
+                        {
+                            "homePage":"https://kimi.moonshot.cn/",
+                            "icon":"https://statics.moonshot.cn/kimi-chat/favicon.ico",
+                            "name":"Kimi.ai",
+                            "description":""
+                        },                   
+                        {
+                            "homePage":"https://www.doubao.com/chat/",
+                            "icon":"https://lf-cdn-tos.bytescm.com/obj/static/doubao_web/logo-icon.png",
+                            "name":"豆包",
+                            "description":"字节推出的 ChatGPT 类产品，免费使用。"
+                        },
+                        {
+                            "homePage":"https://tongyi.aliyun.com/qianwen/",
+                            "icon":"https://img.alicdn.com/imgextra/i4/O1CN01FOwagl1XBpyVA2QVy_!!6000000002886-2-tps-512-512.png",
+                            "name":"通义",
+                            "description":"阿里通用大模型平台"
+                        },
+                        {
+                            "homePage":"https://chatglm.cn/main/alltoolsdetail",
+                            "icon":"https://chatglm.cn/favicon.ico",
+                            "name":"智谱清言",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://gpt4o.so/zh-CN/app/89a94649e8ea27d2033f07b33ef3d102",
+                            "icon":"https://gpt4o.so/favicon.ico",
+                            "name":"gpt4o",
+                            "description":"免费无需注册在此GTP4工具"
+                        },
+                        {
+                            "homePage":"https://lmstudio.ai/",
+                            "icon":"https://lmstudio.ai/assets/favicon.ico",
+                            "name":"lmstudio",
+                            "description":"离线llvms人工智能工具"
+                        },
+                        {
+                            "homePage":"https://silo.kwok.ink/",
+                            "icon":"https://silo.kwok.ink/logo.svg",
+                            "name":"silo",
+                            "description":"在线多模型文本对话和文生图。"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "文本生成图片",
+                    "tagList": [
+                        {
+                            "homePage":"https://stablediffusion3.net/zh-CN/app",
+                            "icon":"https://stablediffusion3.net/favicon.ico",
+                            "name":"stablediffusion3",
+                            "description":"在线文本生成图片"
+                        },
+                        {
+                            "homePage":"https://paint.weta365.com/",
+                            "icon":"https://paint.weta365.com/favicon.ico",
+                            "name":"言之画",
+                            "description":"国内文本生成图片网站，需要注册"
+                        },
+                        {
+                            "homePage":"https://aigc.360.com/",
+                            "icon":"https://p0.ssl.qhimg.com/t014f809b450a0cf0ce.png",
+                            "name":"360智绘",
+                            "description":"360公司推出ai产品，需要注册"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "文本转语音",
+                    "tagList": [
+                        {
+                            "homePage":"https://d1tools.com/tools/ai-tts/",
+                            "icon":"https://d1tools.com/favicon.ico",
+                            "name":"第一在线工具",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://texttospeech.im/zh-CN",
+                            "icon":"https://texttospeech.im/favicon.ico",
+                            "name":"文本转语音",
+                            "description":"免费在线文本转语音"
+                        },
+                        {
+                            "homePage":"https://elevenlabs.io/",
+                            "icon":"https://elevenlabs.io/favicon.ico",
+                            "name":"ElevenLabs",
+                            "description":"在线文本转语音"
+                        }
+
+                    ]
+                },
+                {
+                    "tagType": "AI智能搜索问答",
+                    "tagList": [
+                        {
+                            "homePage":"https://metaso.cn/",
+                            "icon":"https://metaso.cn/favicon.ico",
+                            "name":"秘塔AI搜索",
+                            "description":"分析问题，通过网络知识库，输出答案。"
+                        },
+                        {
+                            "homePage":"https://so.360.com/",
+                            "icon":"https://so.360.com/favicon.ico",
+                            "name":"360AI搜索",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.tiangong.cn/",
+                            "icon":"https://static.tiangong.cn/wwwsite/logo.ico",
+                            "name":"天工ai",
+                            "description":""
+                        }
+                    ]
+                },
+                {
+                    "tagType": "AI能力平台",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.coze.cn/",
+                            "icon":"https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png",
+                            "name":"扣子",
+                            "description":"抖音开发的AI平台，通过配置创造自己的专属AI"
+                        },
+                        {
+                            "homePage":"https://www.aiyjs.com/",
+                            "icon":"https://www.aiyjs.com/wp-content/uploads/2024/02/cropped-1709004251-AI%E7%A0%94%E7%A9%B6%E6%89%80.webp",
+                            "name":"AI研究所",
+                            "description":""
+                        },
+                        {
+                            "homePage": "https://ai.nancheng.fun/",
+                            "icon": "https://ai.nancheng.fun/assets/images/favicon.png",
+                            "name": "ai导航",
+                            "description": "ai资源收集"
+                        },
+                        {
+                            "homePage":"https://www.aihub.cn/",
+                            "icon":"https://www.aihub.cn/wp-content/uploads/2023/06/cropped-aihub_logo-32x32.png",
+                            "name":"AIHub",
+                            "description":"免费齐全的AI工具箱 | 精选800+AI工具集合网站导航"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "ai开发",
+                    "tagList": [
+                        {
+                            "homePage": "http://zh.d2l.ai/",
+                            "icon": "http://zh.d2l.ai/_static/favicon.png",
+                            "name": "动手学深度学习",
+                            "description": "机器学习算法集合"
+                        },
+                        {
+                            "homePage":"http://difyai.com/,https://github.com/langgenius/dify",
+                            "icon":"https://framerusercontent.com/images/KWDRAMQLGjoMFBAjNjoCFMP7XI.png",
+                            "name":"dify",
+                            "description":"开源支持多模型的ai编辑平台"
+                        },
+                        {
+                            "homePage":"https://www.modelscope.cn/home",
+                            "icon":"https://www.modelscope.cn/favicon.ico",
+                            "name":"魔搭社区",
+                            "description":"阿里巴巴达摩院，汇聚各领域最先进的机器学习模型，提供模型探索体验、推理、训练、部署和应用的一站式服务。发现、学习、定制和分享心仪的模型"
+                        }
+
+                    ]
+                }
+
+            ]
+        },
+        {
             "type": "前端",
             "icon": "fa fa-edge",
             "tag": [
@@ -1135,10 +1337,16 @@ var webData = {
                             "description": "新一代渐进式js框架"
                         },
                         {
-                            "homePage": "https://element-plus.gitee.io/zh-CN/component/button.html",
-                            "icon": "https://element-plus.gitee.io/images/element-plus-logo-small.svg",
-                            "name": "elementplus",
-                            "description": "饿了吗基于vue3开源的企业级开发框架"
+                            "homePage":"https://github.com/vuejs/core-vapor",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"vue-vapor",
+                            "description":"无虚拟DOM版本的vue，体积更小，速度更快，当前开为开发阶段。"
+                        },
+                        {
+                            "homePage":"https://s-test.belle.cn/zh-CN/component/button.html",
+                            "icon":"https://s-test.belle.cn//images/element-plus-logo-small.svg",
+                            "name":"Element Plus",
+                            "description":""
                         },
                         {
                             "homePage": "https://element.eleme.cn/#/zh-CN/component/layout",
@@ -1188,10 +1396,21 @@ var webData = {
                             "description": "facebook开源js框架"
                         },
                         {
-                            "homePage": "https://ant-design.gitee.io/docs/react/introduce-cn",
+                            "homePage": "https://ant-design.antgroup.com/docs/react/introduce-cn",
                             "icon": "https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png",
                             "name": "antd",
                             "description": "阿里开源基于react开发企业级web前端框架"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "svelte",
+                    "tagList": [
+                        {
+                            "homePage":"https://svelte.dev/,https://www.svelte.cn/",
+                            "icon":"https://www.svelte.cn/favicon.ico",
+                            "name":"Svelte 中文文档 | Svelte 中文网",
+                            "description":""
                         }
                     ]
                 },
@@ -1262,6 +1481,12 @@ var webData = {
                             "description": "借鉴tailwindcss开发的下一代css框架，但官方更新不给力，使用有待确认。"
                         },
                         {
+                            "homePage":"https://github.com/saadeghi/daisyui",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"daisyui",
+                            "description":"B站使用此ui，基于svelte开发"
+                        },
+                        {
                             "homePage":"https://unocss.dev/",
                             "icon":"https://unocss.dev/favicon.ico",
                             "name":"unocss",
@@ -1289,7 +1514,7 @@ var webData = {
                             "homePage":"https://equal-ui.github.io/Equal/introduction",
                             "icon":"https://equal-ui.github.io//Equal/favicon.ico",
                             "name":"Equal UI",
-                            "description":"基于vue3和Tailwind Css实现的组件库"
+                            "description":"基于vue3和Tailwind Css实现的组件库，更新较慢"
                         }
                     ]
                 },
@@ -1330,6 +1555,12 @@ var webData = {
                             "icon":"https://iconce.com/ce.svg",
                             "name":"iconce",
                             "description":"在线图标制作工具"
+                        },
+                        {
+                            "homePage":"https://github.com/microsoft/fluentui-system-icons",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"fluentui-system-icons",
+                            "description":"微软开源的图标集合。"
                         }
                     ]
                 },
@@ -1455,7 +1686,7 @@ var webData = {
                             "description": "个人知识库管理软件"
                         },
                         {
-                            "homePage": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
+                            "homePage": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases,https://github.com/dail8859/NotepadNext",
                             "icon": "https://images.sftcdn.net/images/t_app-logo-xl,f_auto/p/311d9b92-96d2-11e6-b5e8-00163ed833e7/2186182379/notepad-plus-11194__notepad-plus-plus-icon.png",
                             "name": "Notepad++",
                             "description": "好用的文本编辑器"
@@ -1467,7 +1698,7 @@ var webData = {
                             "description": "轻量级截图工具，缺少不支持长截图"
                         },
                         {
-                            "homePage":"https://txc.qq.com/products/614512/",
+                            "homePage":"https://pixpinapp.com/,https://txc.qq.com/products/614512/",
                             "icon":"https://txc.qq.com/favicon.ico",
                             "name":"pixpin",
                             "description":"新型截图软件，支持文字识别和长截图"
@@ -1503,10 +1734,10 @@ var webData = {
                             "description": ""
                         },
                         {
-                            "homePage":"https://www.billfish.cn/",
-                            "icon":"https://www.billfish.cn/favicon.ico",
-                            "name":"Billfish",
-                            "description":"资源素材管理软件"
+                            "homePage":"https://download.10jqka.com.cn/",
+                            "icon":"https://download.10jqka.com.cn/favicon.ico",
+                            "name":"同花顺软件库",
+                            "description":""
                         },
                         {
                             "homePage":"https://www.gaomon.cn/plus/list.php?tid=10&hao=M6",
@@ -1542,7 +1773,7 @@ var webData = {
                             "homePage":"https://geekuninstaller.com/download",
                             "icon":"https://geekuninstaller.com/favicon.ico",
                             "name":"Geek Uninstaller",
-                            "description":""
+                            "description":"干净卸载软件工具"
                         },
                         {
                             "homePage":"http://www.xabyb.com/",
@@ -1555,6 +1786,12 @@ var webData = {
                             "icon":"https://justgetflux.com/favicon.ico",
                             "name":"f.lux",
                             "description":"国外免费护眼软件"
+                        },
+                        {
+                            "homePage":"https://calibre-ebook.com/",
+                            "icon":"https://calibre-ebook.com/favicon.ico",
+                            "name":"calibre",
+                            "description":"电子书阅读器，python语言开发，支持多种文件格式"
                         }
                     ]
                 },
@@ -1657,6 +1894,42 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "数据恢复",
+                    "tagList": [
+                        {
+         
+                            "homePage":"https://www.ccleaner.com/zh-cn/recuva",
+                            "icon":"https://www.ccleaner.com/favicon.ico",
+                            "name":"Recuva",
+                            "description":"国外免费数据恢复软件"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "素材管理",
+                    "tagList": [
+
+                        {
+                            "homePage":"https://www.billfish.cn/",
+                            "icon":"https://www.billfish.cn/favicon.ico",
+                            "name":"Billfish",
+                            "description":"国产免费资源管理软件，开发技术Qt+SQLit"
+                        },
+                        {
+                            "homePage":"https://eagle.cool/",
+                            "icon":"https://eagle.cool/favicon.ico",
+                            "name":"eagle",
+                            "description":"国产商用资源管理软件，开发技术：Electron+json"
+                        },
+                        {
+                            "homePage":"https://www.digikam.org/",
+                            "icon":"https://www.digikam.org/favicon.ico",
+                            "name":"digiKam",
+                            "description":"国外免费资源管理"
+                        }
+                    ]
+                },
+                {
                     "tagType": "视频",
                     "tagList": [
                         {
@@ -1680,6 +1953,17 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "在线软件",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.zhixi.com/",
+                            "icon":"https://www.zhixi.com/favicon.ico",
+                            "name":"知犀思维导图",
+                            "description":"支持网页和本地的脑图工具"
+                        }
+                    ]
+                },
+                {
                     "tagType": "办公",
                     "tagList": [
                         {
@@ -1688,7 +1972,12 @@ var webData = {
                             "name": "drawio",
                             "description": "流程图软件"
                         },
-
+                        {
+                            "homePage":"https://www.wps.cn/",
+                            "icon":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQ2SURBVHgB7Va9biRFEK7qWa9XAuSByMEhr0FIzvARkEBgEUHEPQG79wKcTyL3Li/gnxdgl5TgTAQSQmeJxEJCIoIjOc/JyemSW4tbe70z28XX1T0z+zO2U6RzWe3unq6un6+/rl6iW7mV111Y7tzZImMekVAcvkm+NqUnxZy1S0jsQz49PdTF3Q82ych3WNzM1dM/Msp+S4UviQ32RHDlBm5MIgJrz9Bvs6y9e4Ida3MOvRXGnxRTyb2HgM6I/13nZDCQb98/IcNNtQC19J8JXf46InWM5npjfM/qnJ1dtVGjSOLgKkQWnMz4y+clcmgx2TiWb955QENpFsBhT/r7SDhymZMwEnfKOjbiFcSSRuO+k7F7FFk4xsdIECZ6xtxg7HqeuHFYQ583lh59Dgvn0qZXmL/CviGy/3tM9gJOoYPmehcMcaR7vE03Vj9yyNJsxlQf4xgkLrNFUCnvEzUwGZUoRDjjiB7peCzr9Gm9hflOgRokfZHdnfw1HPi9+X/IMu8CpHsznIIN3SgbqzvoOiXAMgBgd/nJ84TmibGx+pgcCTeoS9HSY5hpFnwh6vEPp/cr9jidE3/M+Vfb4ycv7hsf5mifzOQlYPFwM87X2B2qlq62kWnRhW3SOaC8sExDHFUadSt3OFsecg+9csGorgbAfw4GVOMDPef8fCJpy0bcnLcFVI5oFYORbcMpaQBD6/o+HybJYvawAVs4Kgq2Hd96ObqmjHK8h8gGgYw+yuWoGoXzrEXnE2SfCQ0zN3dUqc7e2VAyB0LjdtBSWugWASgK7G7EFNONtGRzFgWdp7JNKYxlCBYd+h4fP0+wFi/oGmp7ZK1WI/jowleyEIAXCy7Yl8UxGGyIzCwKjvXGxj5AZxAR2ElXPorbVDPbs7qmExKRcLUTR75plZkAFIVIDvQY3CYlpW3nKBQZ6VqoGUb6oOwgBPa1bHkUVJcnXwUd9hwAUlPZVyAAGZPnQl6UXBDLsqtrDdvReV6UHFKRuxH2AeZwCGTc2MkymO9JnSfyDN768+4WAggo7IWKxeH8vpRP3mo5TpQVUYPrBSttrabujI1sy8dvfIixZ76x3gajRhzPZq/+qEIUxjR9igr3NlVKqChZtk6NxgC9e9A8AUWL0hn+r+QvDPQTytLP+HiU3IiAmj8KXCh5IEWR8mN9C5xB1a3RfnFz/NGtTL0d7v39vsr5lQH4lTq4YM+U6aVxCuQD3JOpe19zuoNQwALp8qtsE6plvSvdXLWgmRnZL1isJXoSXjLu81GZUaGrL14otVrQ0Eg607oLfugakS2c61L9qf5a8i+e6O+CzLw3b1R1a3XHhZWp1zHhXy7Xr/NhrlvkI73fB2Vh0vvcr8pIdR0Xpisp49reILWbFPjncUe+qK0g83vK5tGbD12xqJQR3pPG0hrq8xZQ+JF/yvp0K7fyf5f/AKzIO6StcaNfAAAAAElFTkSuQmCC",
+                            "name":"WPS",
+                            "description":"国产办公软件，支持多种文件编码格式。"
+                        },
                         {
                             "homePage":"https://www.todesk.com/",
                             "icon":"https://www.todesk.com/favicon.ico",
@@ -1863,6 +2152,23 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "下载工具",
+                    "tagList": [
+                        {
+                            "homePage":"https://github.com/nilaoda/BBDown",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"BBDown",
+                            "description":"B站资源下载工具"
+                        },
+                        {
+                            "homePage":"https://github.com/iawia002/lux",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"lux",
+                            "description":"B站资源下载工具"
+                        }
+                    ]
+                },
+                {
                     "tagType": "安卓",
                     "tagList": [
                         {
@@ -1903,9 +2209,15 @@ var webData = {
                         },
                         {
                             "homePage":"https://gedoor.github.io/download",
-                            "icon":"https://gedoor.github.io//img/logo.png",
-                            "name":"legado",
+                            "icon":"https://gedoor.github.io/img/logo.png",
+                            "name":"开源阅读",
                             "description":"github开源小说、图书阅读软件"
+                        },
+                        {
+                            "homePage":"https://github.com/xiaoyaocz/dart_simple_live",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"dart_simple_live",
+                            "description":"多平台视频直播软件"
                         },
                         {
                             "homePage":"https://github.com/zfdang/Android-Touch-Helper",
@@ -1930,6 +2242,12 @@ var webData = {
                             "icon":"https://www.wandoujia.com/favicon.ico",
                             "name":"豌豆荚",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://github.com/Predidit/Kazumi",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"kazumi",
+                            "description":"flutter开发的多平台追番工具"
                         }
                     ]
                 },
@@ -1994,11 +2312,47 @@ var webData = {
             "icon": "fa fa-pencil-square-o",
             "tag": [
                 {
+                    "tagType": "学习网站",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.51zxw.net/",
+                            "icon":"https://www.51zxw.net/favicon.ico",
+                            "name":"我要自学网",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://study.163.com/",
+                            "icon":"https://study.163.com/favicon.ico",
+                            "name":"网易云课堂",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://open.163.com/",
+                            "icon":"https://open.163.com/favicon.ico",
+                            "name":"网易公开课",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.xuetangx.com/",
+                            "icon":"https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0329/logo.ico",
+                            "name":"学堂在线",
+                            "description":"精品在线课程学习平台"
+                        },
+                        {
+                            "homePage":"https://www.icourse163.org/",
+                            "icon":"https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100",
+                            "name":"中国大学MOOC",
+                            "description":""
+                        }
+
+                    ]
+                },
+                {
                     "tagType": "java",
                     "tagList": [
                         {
                             "homePage": "https://www.wdbyte.com/",
-                            "icon": "https://www.wdbyte.com/img/fav.png",
+                            "icon": "https://www.wdbyte.com/static/fav.png",
                             "name": "未读代码",
                             "description": "jdk新语法，java源代码，spring boot，java性能分析等资源"
                         },
@@ -2200,6 +2554,18 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "汇编",
+                    "tagList": [
+                        {
+                            "homePage":"https://zhuanlan.zhihu.com/p/674895448,https://zhuanlan.zhihu.com/p/588075416",
+                            "icon":"https://zhuanlan.zhihu.com/favicon.ico",
+                            "name":"汇编语言入门教程",
+                            "description":"介绍汇编语言"
+                        }
+
+                    ]
+                },
+                {
                     "tagType": "zig",
                     "tagList": [
                         {
@@ -2212,31 +2578,13 @@ var webData = {
                     ]
                 },
                 {
-                    "tagType": "机器学习",
+                    "tagType": "视频剪辑",
                     "tagList": [
                         {
-                            "homePage": "http://zh.d2l.ai/",
-                            "icon": "http://zh.d2l.ai/_static/favicon.png",
-                            "name": "动手学深度学习",
-                            "description": "机器学习算法集合"
-                        },
-                        {
-                            "homePage": "https://ai.nancheng.fun/",
-                            "icon": "https://ai.nancheng.fun/assets/images/favicon.png",
-                            "name": "ai导航",
-                            "description": "ai资源收集"
-                        },
-                        {
-                            "homePage":"https://www.modelscope.cn/home",
-                            "icon":"https://www.modelscope.cn/favicon.ico",
-                            "name":"魔搭社区",
-                            "description":"阿里巴巴达摩院，汇聚各领域最先进的机器学习模型，提供模型探索体验、推理、训练、部署和应用的一站式服务。发现、学习、定制和分享心仪的模型"
-                        },
-                        {
-                            "homePage":"https://www.aihub.cn/",
-                            "icon":"https://www.aihub.cn/wp-content/uploads/2023/06/cropped-aihub_logo-32x32.png",
-                            "name":"AIHub",
-                            "description":"免费齐全的AI工具箱 | 精选800+AI工具集合网站导航"
+                            "homePage":"https://www.doyoudo.com/",
+                            "icon":"https://www.doyoudo.com/favicon.ico",
+                            "name":"doyoudo",
+                            "description":"视频剪辑网站"
                         }
 
                     ]
@@ -2271,6 +2619,7 @@ var webData = {
 
                     ]
                 },
+
                 {
                     "tagType": "文档库",
                     "tagList": [
@@ -2387,6 +2736,29 @@ var webData = {
                             "icon":"https://github.com/favicon.ico",
                             "name":"TranslucentTB",
                             "description":"任务栏美化工具"
+                        },
+                        {
+                            "homePage":"https://github.com/Raphire/Win11Debloat",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"Win11Debloat",
+                            "description":"win10和win11 优化脚本，打开或关闭多余功能。"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "win激活",
+                    "tagList": [
+                        {
+                            "homePage":"https://github.com/abbodi1406/KMS_VL_ALL_AIO",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"KMS_VL_ALL_AIO",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://github.com/massgravel/Microsoft-Activation-Scripts",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"Microsoft-Activation-Scripts",
+                            "description":""
                         }
                     ]
                 },
@@ -2455,13 +2827,13 @@ var webData = {
                         {
                             "homePage": "https://www.openeuler.org/zh/download/",
                             "icon": "https://www.openeuler.org/favicon.ico",
-                            "name": "欧拉系统",
+                            "name": "欧拉euler系统",
                             "description": "华为发布基于centos操作系统"
                         },
                         {
-                            "homePage": "https://openanolis.cn/download,https://mirrors.openanolis.cn/anolis/",
+                            "homePage": "https://openanolis.cn/download,https://mirrors.openanolis.cn/anolis/,https://gitee.com/anolis",
                             "icon": "https://img.alicdn.com/imgextra/i1/O1CN01oJnJZg1yK4RzI4Rx2_!!6000000006559-2-tps-118-118.png",
-                            "name": "龙蜥操作系统",
+                            "name": "龙蜥anolis操作系统",
                             "description": "阿里发布linux操作系统"
                         },
                         {
@@ -2565,10 +2937,16 @@ var webData = {
                     "tagType": "在线动漫",
                     "tagList": [
                         {
-                            "homePage":"http://www.dy1234.net/",
-                            "icon":"http://www.dy1234.net/templets/image/apple-touch-icon-152x152.png",
-                            "name":"电影家园",
-                            "description":"排版不错"
+                            "homePage":"https://www.mtacg.tv/",
+                            "icon":"https://video1.beijcloud.com/favicon.ico",
+                            "name":"蜜糖动漫",
+                            "description":"溢满热爱，探寻动漫世界的精彩旅程！"
+                        },
+                        {
+                            "homePage":"https://www.bimiacg4.net/",
+                            "icon":"https://www.bimiacg4.net/favicon.ico",
+                            "name":"哔咪动漫",
+                            "description":""
                         }
                     ]
                 },
@@ -2604,6 +2982,12 @@ var webData = {
                             "icon": "http://halihali18.com/favicon.ico",
                             "name": "哈哩哈哩",
                             "description": "高品质视屏平台"
+                        },
+                        {
+                            "homePage":"http://www.dy1234.net/",
+                            "icon":"http://www.dy1234.net/templets/image/apple-touch-icon-152x152.png",
+                            "name":"电影家园",
+                            "description":"排版不错"
                         }
                     ]
                 },
@@ -2720,6 +3104,30 @@ var webData = {
                             "icon":"https://passer-by.com/favicon.png",
                             "name":"吃豆人游戏",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://poki.com/zh",
+                            "icon":"https://a.poki.com/icons/favicon-32x32.png",
+                            "name":"poki",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://xiuxian.jntm.cool/",
+                            "icon":"https://xiuxian.jntm.cool/favicon.ico",
+                            "name":"网页文字修仙",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://passer-by.com/gobang/",
+                            "icon":"https://passer-by.com/favicon.png",
+                            "name":"五子棋",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://project.threejs-tetris-react.rylan.cn/,https://github.com/RylanBot/threejs-tetris-react",
+                            "icon":"https://project.threejs-tetris-react.rylan.cn/favicon.ico",
+                            "name":"threejs-tetris-react",
+                            "description":"3d版俄罗斯方块"
                         }
 
                     ]
@@ -2791,6 +3199,18 @@ var webData = {
                             "icon":"https://mc.kurogames.com/favicon.ico",
                             "name":"鸣潮",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://m.yjwujian.cn/",
+                            "icon":"https://m.yjwujian.cn/favicon.ico",
+                            "name":"永劫无间",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.heishenhua.com/",
+                            "icon":"https://www.heishenhua.com/favicon.ico",
+                            "name":"黑神话悟空",
+                            "description":""
                         }
                     ]
                 },
@@ -2814,6 +3234,30 @@ var webData = {
                             "icon":"https://github.com/favicon.ico",
                             "name":"米哈游游戏启动器",
                             "description":"包含崩坏、崩铁、原神"
+                        }
+
+                    ]
+                },
+                {
+                    "tagType": "游戏论坛",
+                    "tagList": [
+                        {
+                            "homePage":"https://nga.178.com/",
+                            "icon":"https://nga.178.com/favicon.ico",
+                            "name":"178",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://bbs.3dmgame.com/forum.php",
+                            "icon":"https://bbs.3dmgame.com/favicon.ico",
+                            "name":"单机游戏",
+                            "description":"单机游戏下载_3DMGAME_中国单机游戏论坛"
+                        },
+                        {
+                            "homePage":"https://game.ali213.net/",
+                            "icon":"https://game.ali213.net/favicon.ico",
+                            "name":"游侠NETSHOW论坛",
+                            "description":"单机游戏|游戏攻略|心得秘籍|游戏补丁|单机游戏下载|游戏汉化"
                         }
 
                     ]
@@ -2859,7 +3303,7 @@ var webData = {
                         {
                             "homePage":"https://www.ecylt.top/",
                             "icon":"https://www.ecylt.top/uploads/default/optimized/1X/c3111c9f0edebc10713d3f2429b46797d068a723_2_32x32.jpeg",
-                            "name":"按下F逃离世界！",
+                            "name":"E站",
                             "description":"有意思的社区网站"
                         },
                         {
@@ -2906,6 +3350,40 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "搜索图库",
+                    "tagList": [
+                        {
+                            "homePage":"https://image.baidu.com/",
+                            "icon":"https://image.baidu.com/favicon.ico",
+                            "name":"百度图片",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://pic.sogou.com/",
+                            "icon":"https://pic.sogou.com/favicon.ico",
+                            "name":"搜狗图片搜索 - 上网从搜狗开始",
+                            "description":""
+                        }
+                    ]
+                },
+                {
+                    "tagType": "图搜图",
+                    "tagList": [
+                        {
+                            "homePage": "https://huaban.com/follow",
+                            "icon": "https://huaban.com/favicon.ico",
+                            "name": "花瓣",
+                            "description": "照片、绘画资源网站，可以建立自己的绘画库"
+                        },
+                        {
+                            "homePage":"https://picfind.top/",
+                            "icon":"https://picfind.top/logo.webp",
+                            "name":"ImageSearch",
+                            "description":"图片搜图片"
+                        }
+                    ]
+                },
+                {
                     "tagType": "绘画练习",
                     "tagList": [
                         {
@@ -2942,13 +3420,7 @@ var webData = {
                             "homePage":"https://www.loliapi.com/",
                             "icon":"https://www.loliapi.com/favicon.ico",
                             "name":"loliapi",
-                            "description":"资源丰富，速度较快"
-                        },
-                        {
-                            "homePage":"https://www.eee.dog/tech/rand-pic-api.html",
-                            "icon":"https://cdn.yimian.xyz/img/head/head3r.ico",
-                            "name":"eee",
-                            "description":"资源丰富，可参数获取不同类型资源。"
+                            "description":"停止服务，原因位置"
                         },
                         {
                             "homePage":"https://api.rainss.cn/randoms.php",
@@ -3002,6 +3474,18 @@ var webData = {
                             "icon": "",
                             "name": "wallhaven",
                             "description": "高分辨壁纸"
+                        },
+                        {
+                            "homePage":"https://photo.ihansen.org/",
+                            "icon":"https://photo.ihansen.org/favicon.ico",
+                            "name":"美图集",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://netbian.timeline.ink/home",
+                            "icon":"https://netbian.timeline.ink/favicon.ico",
+                            "name":"拾光壁纸",
+                            "description":"干净、舒适、流畅的壁纸网站"
                         },
                         {
                             "homePage": "http://wallpaperswide.com/",
@@ -3204,6 +3688,17 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "pc音乐软件",
+                    "tagList": [
+                        {
+                            "homePage":"https://github.com/lyswhut/lx-music-desktop",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"",
+                            "description":"落雪音乐播放器， Electron + Vue开发"
+                        }
+                    ]
+                },
+                {
                     "tagType": "音乐资源",
                     "tagList": [
                         {
@@ -3298,6 +3793,18 @@ var webData = {
                             "icon":"http://qikan.lifves.com/favicon.ico",
                             "name":"网页版意林",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://sobooks.cc/xiaoshuowenxue",
+                            "icon":"https://sobooks.cc/favicon.ico",
+                            "name":"SoBooks",
+                            "description":"小说文学 by 赖瑞和 epub,mobi,azw3格式 "
+                        },
+                        {
+                            "homePage":"http://read.nlc.cn/user/index",
+                            "icon":"http://read.nlc.cn//static/style/images/gutu_logo.jpg",
+                            "name":"国家图书馆",
+                            "description":""
                         }
                     ]
                 },
@@ -3315,6 +3822,12 @@ var webData = {
                             "icon":"https://www.owlook.com.cn/favicon.ico",
                             "name":"owlook",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://xiuting.cc/",
+                            "icon":"https://xiuting.cc/favicon.ico",
+                            "name":"秀亭",
+                            "description":"紧跟实时小说更新"
                         }
                     ]
                 },
@@ -3367,11 +3880,34 @@ var webData = {
                             "icon":"https://www.6mj.com/favicon.ico",
                             "name":"中国民间故事网",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://aspoem.com/",
+                            "icon":"https://aspoem.com/favicon.ico",
+                            "name":"Aspoem",
+                            "description":"在线古文阅读学习网站"
                         }
                     ]
                 },
                 {
-                    "tagType": "搜书",
+                    "tagType": "网盘图书",
+                    "tagList": [
+                        {
+                            "homePage":"https://ctext.org/zhs",
+                            "icon":"https://ctext.org/favicon.ico",
+                            "name":"中国哲学书电子化计划",
+                            "description":"在线中国古代哲学书库，支持中、英、繁体中文，包含各家经典和医学。"
+                        },
+                        {
+                            "homePage":"https://g79rnb8ep5.feishu.cn/sheets/OvcYslP6Gh7TfutSNi9cKEHenhc",
+                            "icon":"https://lf-scm-cn.feishucdn.com/ccm/pc/web/resource/bear/feishu.ico",
+                            "name":"飞书云文档",
+                            "description":"整理输出各种图书网盘资源"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "pdf搜书",
                     "tagList": [
                         {
                             "homePage": "https://xmsoushu.com/index.html#/",
@@ -3386,16 +3922,28 @@ var webData = {
                             "description":"包含大量古文、古画和近现代照片。"
                         },
                         {
-                            "homePage":"https://zlib.missuo.me/",
-                            "icon":"",
-                            "name":"Book Searcher",
-                            "description":"在线搜书，不需要微信验证码"
+                            "homePage":"https://www.jiumodiary.com/",
+                            "icon":"https://www.jiumodiary.com/favicon.ico",
+                            "name":"Jiumo Search 鸠摩搜索",
+                            "description":""
                         },
                         {
-                            "homePage":"https://aspoem.com/",
-                            "icon":"",
-                            "name":"Aspoem",
-                            "description":"在线古文阅读学习网站"
+                            "homePage":"https://sobooks.cc/xiaoshuowenxue",
+                            "icon":"https://sobooks.cc/favicon.ico",
+                            "name":"SoBooks",
+                            "description":"小说文学 by 王小伟 epub,mobi,azw3格式"
+                        },
+                        {
+                            "homePage":"https://mox.moe/",
+                            "icon":"https://mox.moe/favicon.ico",
+                            "name":"Kox.moe",
+                            "description":"国外漫画网站"
+                        },
+                        {
+                            "homePage":"https://zh.annas-archive.li/",
+                            "icon":"https://zh.annas-archive.li/favicon.ico",
+                            "name":"安娜的档案",
+                            "description":""
                         }
                     ]
                 }
@@ -3419,12 +3967,6 @@ var webData = {
                             "icon":"https://www.daysou.com/favicon.ico",
                             "name":"天天搜索",
                             "description":"国内优秀的网盘搜索引擎"
-                        },
-                        {
-                            "homePage":"https://aliso.cc/",
-                            "icon":"https://aliso.cc//static/img/logo.png",
-                            "name":"阿里搜",
-                            "description":"阿里盘搜索"
                         },
                         {
                             "homePage":"https://qpp.sokk34.buzz/",
@@ -3465,14 +4007,109 @@ var webData = {
                     ]
                 },
                 {
-                    "tagType": "视频库",
+                    "tagType": "网盘搜索",
                     "tagList": [
                         {
-                            "homePage": "http://www.bdys01.com/",
-                            "icon": "http://www.bdys01.com/favicon.ico",
-                            "name": "哔嘀影视",
-                            "description": "资源下载"
+                            "homePage":"https://www.xuebapan.com/",
+                            "icon":"https://www.xuebapan.com//static/img/logo.png",
+                            "name":"学霸盘",
+                            "description":"百度网盘学习资料搜索下载神器"
                         },
+                        {
+                            "homePage":"https://aliso.cc/",
+                            "icon":"https://aliso.cc//static/img/logo.png",
+                            "name":"阿里搜",
+                            "description":"阿里盘搜索"
+                        },
+                        {
+                            "homePage":"https://www.upyunso.com/",
+                            "icon":"https://cdn.tkk78.com/upyunso/web_static/static/img/upso_mlogo.png",
+                            "name":"UP云搜",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://yapan.io/",
+                            "icon":"https://yapan.io/favicon.ico",
+                            "name":"ya盘",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.xiaobaipan.com/",
+                            "icon":"https://www.xiaobaipan.com/favicon.ico",
+                            "name":"小白盘",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.pansearch.me/",
+                            "icon":"https://www.pansearch.me//favicon.png",
+                            "name":"PanSearch",
+                            "description":""
+                        },
+                        {
+                            "homePage":"http://www.xgsoso.com/",
+                            "icon":"http://www.xgsoso.com/favicon.ico",
+                            "name":"西瓜搜搜",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://xiongdipan.com/",
+                            "icon":"https://xiongdipan.com/favicon.ico",
+                            "name":"兄弟盘",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.fastsoso.cn/",
+                            "icon":"https://www.fastsoso.cn/favicon.ico",
+                            "name":"fastsoso",
+                            "description":"百度网盘搜索"
+                        },
+                        {
+                            "homePage":"https://www.wowenda.com/",
+                            "icon":"https://www.wowenda.com/favicon.ico",
+                            "name":"网盘之家导航",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://panyq.com/",
+                            "icon":"https://panyq.com/favicon.ico",
+                            "name":"盘友圈",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.pikaso.top/",
+                            "icon":"https://www.pikaso.top/favicon.ico",
+                            "name":"皮卡搜索",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://51vde.com/",
+                            "icon":"https://51vde.com/assets/favicon-pvx9yqcm.png",
+                            "name":"51影源网",
+                            "description":"开放云盘资源分享社区"
+                        },
+                        {
+                            "homePage":"https://wpzy.cc/",
+                            "icon":"https://wpzy.cc/assets/favicon-zgzvsicj.png",
+                            "name":"AQ网盘资源",
+                            "description":""
+                        },
+                        {
+                            "homePage":"http://s.kkkob.com/apps/index.html?id=211229kl,http://kkszn.com/app/index.html?id=test,http://mx771.cn/app/index.html?id=test",
+                            "icon":"",
+                            "name":"数据搜索",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.dashengpan.com/",
+                            "icon":"https://www.dashengpan.com/favicon.ico",
+                            "name":"大圣盘-激活",
+                            "description":""
+                        }
+                    ]
+                },
+                {
+                    "tagType": "视频库",
+                    "tagList": [
                         {
                             "homePage":"http://www.butailing.com,https://www.9bt0.com/",
                             "icon":"",
@@ -3510,7 +4147,8 @@ var webData = {
                             "description": "综合视频资源下载平台"
                         }
                     ]
-                },{
+                },
+                {
                     "tagType":"BT种子",
                     "tagList":[
                         {
@@ -3632,6 +4270,30 @@ var webData = {
                             "icon":"https://www.halo.run/themes/theme-official-v2/assets/favicons/favicon-96x96.png",
                             "name":"halo",
                             "description":"java开发的国产博客软件。"
+                        },
+                        {
+                            "homePage":"https://redis.tinycraft.cc/zh/",
+                            "icon":"https://redis.tinycraft.cc/images/logo.svg",
+                            "name":"TinyRDM",
+                            "description":"跨平台Redis工具，使用golang+Wails开发。"
+                        },
+                        {
+                            "homePage":"https://github.com/JoeanAmier/TikTokDownloader",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"TikTokDownloader",
+                            "description":"视频采集"
+                        },
+                        {
+                            "homePage":"https://github.com/BlackINT3/OpenArk",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"OpenArk",
+                            "description":"windows平台逆转变成助手，用于病毒发现和安全防护。"
+                        },
+                        {
+                            "homePage":"https://www.kirilv.com/canvas-confetti/,https://github.com/catdad/canvas-confetti",
+                            "icon":"https://www.kirilv.com/favicon.ico",
+                            "name":"canvas-confetti",
+                            "description":"有趣的彩色纸片碎屑动画库。"
                         }
                     ]
                 },
@@ -3825,6 +4487,40 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "趣味",
+                    "tagList": [
+                        {
+                            "homePage":"https://music.alang.run/",
+                            "icon":"https://music.alang.run/favicon.ico",
+                            "name":"一起听歌",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://fakeupdate.net/",
+                            "icon":"https://fakeupdate.net/favicon.ico",
+                            "name":"假装windows升级",
+                            "description":"网页版windows升级视频"
+                        },
+                        {
+                            "homePage":"https://github.com/meethigher/black-wukong-youji/blob/master/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA%E5%A6%96%E6%80%AA%E5%B9%B3%E7%94%9F%E5%BD%95.md",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"妖怪生平志",
+                            "description":"黑神话悟空中妖怪信息"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "健体",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.zhihu.com/question/524091077/answer/2409904312,https://www.zhihu.com/question/643202058/answer/3587190116",
+                            "icon":"https://static.zhihu.com/heifetz/favicon.ico",
+                            "name":"年轻人强身健体",
+                            "description":""
+                        }
+                    ]
+                },
+                {
                     "tagType": "新闻",
                     "tagList": [
                         {
@@ -3891,6 +4587,12 @@ var webData = {
                             "icon":"https://leetcode.cn/favicon.ico",
                             "name":"力扣",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://juejin.cn/post/7375086929404837914",
+                            "icon":"https://juejin.cn/favicon.ico",
+                            "name":"离职原因",
+                            "description":""
                         }
 
                     ]
@@ -3915,6 +4617,30 @@ var webData = {
                             "icon":"https://my.chsi.com.cn/favicon.ico",
                             "name":"学信网",
                             "description":"微信登录"
+                        },
+                        {
+                            "homePage":"https://www.beijing.gov.cn/fuwu/bmfw/bmzt/sfz/blzn/201806/t20180622_1857525.html",
+                            "icon":"https://www.beijing.gov.cn/favicon.ico",
+                            "name":"北京身份证",
+                            "description":"北京异地补办身份证"
+                        },
+                        {
+                            "homePage":"https://si.12333.gov.cn/",
+                            "icon":"https://si.12333.gov.cn/favicon.ico",
+                            "name":"国家社会保险公共服务平台",
+                            "description":"养老退休"
+                        },
+                        {
+                            "homePage":"https://si.12333.gov.cn/157569.jhtml?menuguide=1",
+                            "icon":"https://si.12333.gov.cn/favicon.ico",
+                            "name":"养老金计算",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://map.beijing.gov.cn/jgjmap/category?categoryId=jsrtjyy",
+                            "icon":"",
+                            "name":"北京市公安局公安交通管理局",
+                            "description":"北京驾照体检中心地图"
                         }
 
                     ]
@@ -3939,6 +4665,84 @@ var webData = {
                             "icon":"https://m.fang.com/favicon.ico",
                             "name":"洛阳人气小区榜",
                             "description":"查看整个洛阳小区格局。"
+                        },
+                        {
+                            "homePage":"https://luoyang.anjuke.com/community/props/sale/1253511/b402-o4",
+                            "icon":"https://pages.anjukestatic.com/usersite/touch/img/favicon.ico",
+                            "name":"澜京公馆",
+                            "description":"只有33层和29层，楼层过高，考虑以后维护，建议选择新标准房。高于11层的房子，未来都是贫民窟。新规：新建住宅的最高层数不得超过18层，建筑高度在6~7层左右，小高层一梯两户。"
+                        }
+
+                    ]
+                },
+                {
+                    "tagType": "地图",
+                    "tagList": [
+                        {
+                            "homePage":"https://map.baidu.com/search/",
+                            "icon":"https://map.baidu.com/favicon.ico",
+                            "name":"百度地图",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.amap.com/",
+                            "icon":"https://www.amap.com/favicon.ico",
+                            "name":"高德地图",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://map.qq.com/",
+                            "icon":"https://map.qq.com/favicon.ico",
+                            "name":"腾讯地图",
+                            "description":""
+                        }
+
+                    ]
+                },
+                {
+                    "tagType": "医学",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.mvyxws.cn/",
+                            "icon":"https://www.mvyxws.cn/favicon.ico",
+                            "name":"医学微视",
+                            "description":"由中国医药卫生事业发展基金会创办，囊括了我们普通人能接触到的所有疾病。"
+                        }
+
+                    ]
+                },
+                {
+                    "tagType": "历史",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.allhistory.com/",
+                            "icon":"https://www.allhistory.com/favicon.ico",
+                            "name":"全历史",
+                            "description":"国内外历史信息网站"
+                        }
+
+                    ]
+                },
+                {
+                    "tagType": "电话卡",
+                    "tagList": [
+                        {
+                            "homePage":"http://orafast.com.cn/",
+                            "icon":"http://orafast.com.cn/images/favicon.ico",
+                            "name":"大王卡",
+                            "description":""
+                        },
+                        {
+                            "homePage":"http://mgk.86dk.com/",
+                            "icon":"http://mgk.86dk.com/favicon.ico",
+                            "name":"移动芒果卡",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.mi.com/mimobile",
+                            "icon":"https://www.mi.com/favicon.ico",
+                            "name":"小米移动电话卡",
+                            "description":""
                         }
 
                     ]
@@ -4144,6 +4948,24 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "股票",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.sse.com.cn/assortment/stock/list/share/",
+                            "icon":"https://www.sse.com.cn/favicon.ico",
+                            "name":"沪市A股列表",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.szse.cn/market/product/stock/list/index.html",
+                            "icon":"https://res.szse.cn/common/images/favicon.ico",
+                            "name":"深市A股列表",
+                            "description":""
+                        }
+
+                    ]
+                },
+                {
                     "tagType": "综合论坛",
                     "tagList": [
                         {
@@ -4169,6 +4991,48 @@ var webData = {
                             "icon":"https://xueqiu.com/favicon.ico",
                             "name":"大道无形我有型",
                             "description":"段永平雪球账号"
+                        },
+                        {
+                            "homePage":"https://www.55188.com/index.php",
+                            "icon":"https://www.55188.com/favicon.ico",
+                            "name":"理想股票论坛",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.taoguba.com.cn/",
+                            "icon":"https://www.taoguba.com.cn/favicon.ico",
+                            "name":"淘股吧",
+                            "description":"专业投资A股股票炒股论坛交流分享社区"
+                        },
+                        {
+                            "homePage":"http://www.guziyuan.cn/",
+                            "icon":"http://www.guziyuan.cn/favicon.ico",
+                            "name":"股资源",
+                            "description":""
+                        }
+
+                    ]
+                },
+                {
+                    "tagType": "知乎主",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.zhihu.com/people/42-18-46-77-7",
+                            "icon":"https://static.zhihu.com/heifetz/favicon.ico",
+                            "name":"老陈",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.zhihu.com/people/10-64-17-85-40",
+                            "icon":"https://static.zhihu.com/heifetz/favicon.ico",
+                            "name":"水又三人禾",
+                            "description":""
+                        },
+                        {
+                            "homePage": "https://www.zhihu.com/people/shen-chen-7-10",
+                            "icon": "https://static.zhihu.com/heifetz/favicon.ico",
+                            "name": "阳光下的沈同学",
+                            "description": "股票交易"
                         }
 
                     ]
@@ -4217,6 +5081,24 @@ var webData = {
                             "icon": "https://www.zhihu.com/favicon.ico",
                             "name": "炒股人的一天",
                             "description": ""
+                        },
+                        {
+                            "homePage":"https://www.zhihu.com/question/529185823/answer/3550033479",
+                            "icon":"https://www.zhihu.com/favicon.ico",
+                            "name":"短线交易",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://zhuanlan.zhihu.com/p/108627613",
+                            "icon":"https://zhuanlan.zhihu.com/favicon.ico",
+                            "name":"投资新手入门教程",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.zhihu.com/question/57199649/answer/3508952723?utm_psn=1793639498996920320",
+                            "icon":"https://zhuanlan.zhihu.com/favicon.ico",
+                            "name":"如何选股",
+                            "description":""
                         }
 
                     ]
