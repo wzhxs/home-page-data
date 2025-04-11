@@ -1,5 +1,19 @@
 var webData = {
     "description": "个人网站记录",
+    "bgk":[
+        // "https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images",   //有问题，请求失败
+        // "http://imgapi.xl0408.top/index.php",
+        "https://hefollo.com/apis.php?type=电脑端-动漫图片",
+        "https://hefollo.com/apis.php?type=电脑端-谷歌每日图片",
+        "https://hefollo.com/apis.php?type=电脑端-4K图片/4K动漫壁纸",
+        "https://hefollo.com/apis.php?type=电脑端-4K图片/4K动漫系列",
+        "https://hefollo.com/apis.php?type=电脑端-4K图片/4K风景壁纸图片1080P",
+        // "https://www.loliapi.com/acg/pc/",  //pc
+        // "https://api.rainss.cn/randoms.php", 
+        // "https://cdn.seovx.com/ha/?mom=302",  //古风
+        // "https://cdn.seovx.com/?mom=302",  //美女
+         //"https://cdn.seovx.com/d/?mom=302"  //卡通
+    ],
     "data": [
         {
             "type": "日常浏览",
@@ -87,12 +101,6 @@ var webData = {
                             "description":""
                         },
                         {
-                            "homePage": "https://www.dbbqb.com/",
-                            "icon": "https://www.dbbqb.com/favicon.ico",
-                            "name": "逗比拯救世界",
-                            "description": "表情包网站"
-                        },
-                        {
                             "homePage": "https://huaban.com/follow",
                             "icon": "https://huaban.com/favicon.ico",
                             "name": "花瓣",
@@ -105,6 +113,12 @@ var webData = {
                             "description": "28号更新"
                         },
                         {
+                            "homePage":"https://github.com/OpenGithubs/github-daily-rank,https://open.itc.cn/?tab=repos",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"OpenGithubs",
+                            "description":"github开源项目排行统计。"
+                        },
+                        {
                             "homePage": "https://github.com/zhaoolee/ins",
                             "icon": "https://github.com/favicon.ico",
                             "name": "ins项目记录",
@@ -115,6 +129,12 @@ var webData = {
                             "icon": "https://static.yximgs.com/udata/pkg/WEB-LIVE/kwai_icon.8f6787d8.ico",
                             "name": "快手",
                             "description": "快手"
+                        },
+                        {
+                            "homePage": "https://www.douyin.com/discover",
+                            "icon": "https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico",
+                            "name": "抖音",
+                            "description": "抖音"
                         },
                         {
                             "homePage":"https://weibo.com/",
@@ -151,6 +171,12 @@ var webData = {
                             "icon":"https://leetcode.cn/favicon.ico",
                             "name":"力扣",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://www.tgb.cn/",
+                            "icon":"https://www.tgb.cn/favicon.ico",
+                            "name":"淘吧",
+                            "description":"专业投资A股股票炒股论坛交流分享社区"
                         },                        
                         {
                             "homePage": "https://www.zhihu.com/people/chen-bin-99-5-4",
@@ -171,10 +197,28 @@ var webData = {
                             "description": "教授写作经验的作者"
                         },
                         {
-                            "homePage": "https://www.zhihu.com/people/san-chen-8",
-                            "icon": "https://static.zhihu.com/heifetz/favicon.ico",
-                            "name": "陈野亮",
-                            "description": "写作能力突出的作者，可以跟随学习。"
+                            "homePage":"https://space.bilibili.com/488034462",
+                            "icon":"https://space.bilibili.com/favicon.ico",
+                            "name":"阿兵电器维修",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://space.bilibili.com/1359917078",
+                            "icon":"https://space.bilibili.com/favicon.ico",
+                            "name":"米师傅安装",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://live.kuaishou.com/profile/3xccdyxe6ar7ttm",
+                            "icon":"https://live.kuaishou.com/favicon.ico",
+                            "name":"小辉辉",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://live.kuaishou.com/profile/3x4m2cqdabjudsi",
+                            "icon":"https://live.kuaishou.com/favicon.ico",
+                            "name":"大冰",
+                            "description":""
                         }
 
                     ]
@@ -271,6 +315,12 @@ var webData = {
                             "icon":"",
                             "name":"赵丹刚工具箱",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://wukan.me/,https://wukan.me/?p=2649",
+                            "icon":"",
+                            "name":"阿偏的孤独星球",
+                            "description":"美国和国内it从业者比较，作者4年在中（北京、上海）美两国工作，分析总结两地特点和差异。情绪按摩。"
                         }
                     ]
                 },
@@ -342,6 +392,12 @@ var webData = {
                             "description":"综合资源导航网站"
                         },
                         {
+                            "homePage":"https://www.zjnav.com/",
+                            "icon":"https://www.zjnav.com/wp-content/uploads/2024/01/1705467656-favicon.png",
+                            "name":"终极导航",
+                            "description":"全平台导航网站"
+                        },
+                        {
                             "homePage":"https://www.bidianer.com/",
                             "icon":"https://www.bidianer.com/favicon.ico",
                             "name":"笔点",
@@ -375,6 +431,19 @@ var webData = {
                             "homePage":"https://daohangxie.com/",
                             "icon":"https://daohangxie.com/wp-content/uploads/2024/06/cropped-New-Project-32x32.png",
                             "name":"导航蟹",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.klyingshi1.com/,https://klyingshi.top/",
+                            "icon":"https://www.klyingshi1.com/favicon.ico",
+                            "name":"可乐影视",
+                            "description":"最全面最优质的影视导航、影视搜索网站"
+                        
+                        },
+                        {
+                            "homePage":"https://36kdh.com/",
+                            "icon":"https://36kdh.com/favicon.ico",
+                            "name":"36k导航",
                             "description":""
                         }
                     ]
@@ -456,7 +525,7 @@ var webData = {
                         },
                         {
                             "homePage":"https://watermark.liumingye.cn/",
-                            "icon":"https://watermark.liumingye.cn/favicon.png",
+                            "icon":"",
                             "name":"短视频提取",
                             "description":"支持多种平台短视频内容提取"
                         },
@@ -467,28 +536,16 @@ var webData = {
                             "description":""
                         },
                         {
-                            "homePage":"https://deershare.com/send",
-                            "icon":"https://deershare.com//images/favicon.ico",
-                            "name":"小鹿快传",
-                            "description":"p2p文件传输"
-                        },
-                        {
-                            "homePage":"https://handraw.top/",
-                            "icon":"",
+                            "homePage":"https://handraw.top/,https://revezone.com/index.html",
+                            "icon":"https://handraw.top/favicon.ico",
                             "name":"handraw",
-                            "description":"网页绘图工具"
+                            "description":"网页绘图工具 第二个网页为升级版"
                         },
                         {
                             "homePage":"http://blog.luckly-mjw.cn/tool-show/m3u8-downloader/index.html,https://github.com/Momo707577045/m3u8-downloader,https://m3u8.yydy.link:2023/",
                             "icon":"http://blog.luckly-mjw.cn/favicon.ico",
                             "name":"m3u8 downloader",
                             "description":"在线m3u8格式视频网页下载工具"
-                        },
-                        {
-                            "homePage":"https://www.ticompressor.com/online/",
-                            "icon":"",
-                            "name":"图片压缩",
-                            "description":"在线图片压缩工具，支持安装gui版"
                         },
                         {
                             "homePage":"https://idify.netlify.app/",
@@ -507,12 +564,6 @@ var webData = {
                             "icon":"https://epubtopdf.com//images/epubtopdf/favicon.svg",
                             "name":"ePub转换PDF",
                             "description":"在线文件epub转换PDF工具"
-                        },
-                        {
-                            "homePage":"https://tools.miku.ac/",
-                            "icon":"https://mikutools.cdn.hatsune.tech/icons/icon_64x64.3ecd30.png",
-                            "name":"MikuTools",
-                            "description":"在线工具网站"
                         },{
                             "homePage":"https://github.com/BlueMatthew/WechatExporter",
                             "icon":"",
@@ -524,12 +575,6 @@ var webData = {
                             "icon":"https://zm.i8k.tv/favicon.ico",
                             "name":"在线字幕工具",
                             "description":""
-                        },
-                        {
-                            "homePage":"https://cobalt.tools/",
-                            "icon":"https://cobalt.tools/favicon.ico",
-                            "name":"cobalt",
-                            "description":"B站等网站视频提取工具"
                         },
                         {
                             "homePage":"https://symbl.cc/cn/unicode-table/",
@@ -548,6 +593,30 @@ var webData = {
                             "icon":"https://lovelive.tools/icon.png",
                             "name":"渣男说话语录",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://emojis.click/zh",
+                            "icon":"https://emojis.click/favicon.ico",
+                            "name":"Emoji搜索",
+                            "description":"结合ai用自然语言找到适合的表情。"
+                        },
+                        {
+                            "homePage":"https://qrframe.kylezhe.ng/",
+                            "icon":"https://qrframe.kylezhe.ng/favicon.svg",
+                            "name":"qrframe",
+                            "description":"定制二维码网页工具"
+                        },
+                        {
+                            "homePage":"https://tool.520101.com/wangluo/ipjisuan/",
+                            "icon":"https://tool.520101.com/favicon.ico",
+                            "name":"ip地址计算",
+                            "description":"在线网页工具，支持电子电路等相关计算。"
+                        },
+                        {
+                            "homePage":"https://fietkau.software/qr",
+                            "icon":"https://fietkau.software/favicon.ico",
+                            "name":"QRSVG",
+                            "description":"二维码定制可指定颜色，背景色，插入图片。"
                         }
                     ]
                 }
@@ -568,7 +637,7 @@ var webData = {
                             "description": "java开发开源大数据平台"
                         },
                         {
-                            "homePage": "https://hbase.apache.org/",
+                            "homePage": "https://hbase.apache.org/downloads.html",
                             "icon": "https://hbase.apache.org/images/favicon.ico",
                             "name": "hbase",
                             "description": "基于hdfs快速查询，列式存储，key-value关联数据库"
@@ -673,7 +742,7 @@ var webData = {
                             "description":""
                         },
                         {
-                            "homePage":"https://mp.weixin.qq.com/s/c1JlS889Irdpye0MwTupcg,https://mp.weixin.qq.com/s/KrhgKnbca1IuSR65UcbCzQ",
+                            "homePage":"https://mp.weixin.qq.com/s/5EdqLYv7jIiqia-7l_bLhQ,https://mp.weixin.qq.com/s/KrhgKnbca1IuSR65UcbCzQ",
                             "icon":"https://mp.weixin.qq.com/favicon.ico",
                             "name":"hidataPlus公众号",
                             "description":""
@@ -683,6 +752,18 @@ var webData = {
                             "icon":"https://bigtop.apache.org/favicon.ico",
                             "name":"Apache Bigtop",
                             "description":"apache基金会支持的新一代开源大数据组件提供全面的打包、测试和配置。"
+                        },
+                        {
+                            "homePage":"http://www.boundivore.cn/",
+                            "icon":"http://www.boundivore.cn/favicon/logo.svg",
+                            "name":"DataLight",
+                            "description":"新生大数据部署平台，可用性待定。"
+                        },
+                        {
+                            "homePage":"https://docs.cloudera.com/HDPDocuments/index.html",
+                            "icon":"https://docs.cloudera.com/favicon.ico",
+                            "name":"HDP",
+                            "description":"HDP官方文档"
                         }
                     ]
                 },
@@ -877,6 +958,12 @@ var webData = {
                             "icon":"https://blog.csdn.net/favicon.ico",
                             "name":"GateWay-CSDN",
                             "description":"官网不好打开，GetWay微服务网关组件"
+                        },
+                        {
+                            "homePage":"https://sentinelguard.io/zh-cn/,https://github.com/alibaba/Sentinel/releases",
+                            "icon":"https://sentinelguard.io/img/sentinel.ico",
+                            "name":"Sentinel",
+                            "description":"阿里开发的流控防护组件"
                         }
                         
                     ]
@@ -885,12 +972,43 @@ var webData = {
                     "tagType":"虚拟化",
                     "tagList":[
                         {
+                            "homePage":"https://www.virtualbox.org/",
+                            "icon":"https://www.virtualbox.org/favicon.ico",
+                            "name":"Oracle VirtualBox",
+                            "description":"开源虚拟化软件"
+                        },
+                        {
+                            "homePage":"https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion",
+                            "icon":"https://www.vmware.com/vm-favicon.png",
+                            "name":"vmware",
+                            "description":"需要注册账号，不太好。"
+                        },
+                        {
+                            "homePage":"https://download.docker.com/linux/centos/8/x86_64/stable/Packages/,https://mirrors.ustc.edu.cn/docker-ce/linux/centos/8/x86_64/stable/Packages/",
+                            "icon":"https://download.docker.com/favicon.ico",
+                            "name":"docker",
+                            "description":"docker安装包"
+                        },
+                        {
+                            "homePage":"https://learn.microsoft.com/zh-cn/windows/wsl/install",
+                            "icon":"https://learn.microsoft.com/favicon.ico",
+                            "name":"WSL安装",
+                            "description":"微软wsl安装文档"
+                        },
+                        {
+                            "homePage":"https://docs.docker.com/desktop/setup/install/windows-install/",
+                            "icon":"https://docs.docker.com/favicons/docs@2x.ico",
+                            "name":"DockerDesktop",
+                            "description":"windows安装docker"
+                        },
+                        {
 
                             "homePage":"https://github.com/docker/compose",
                             "icon":"https://github.com/favicon.ico",
                             "name":"docker-compose",
                             "description":"github地址"
                         },
+
                         {
                             "homePage":"https://kubernetes.io/zh-cn/releases/",
                             "icon":"https://kubernetes.io/icons/favicon-64.png",
@@ -912,8 +1030,8 @@ var webData = {
                         {
                             "homePage":"https://coredns.io/,https://github.com/coredns/coredns",
                             "icon":"https://coredns.io/images/favicon.png",
-                            "name":"k8s集群coredns工具",
-                            "description":""
+                            "name":"coredns",
+                            "description":"k8s集群coredns工具"
                         },
                         {
                             "homePage":"https://github.com/kubernetes-sigs/metrics-server/,https://kubernetes.io/zh-cn/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/,https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.2/components.yaml",
@@ -926,6 +1044,25 @@ var webData = {
                             "icon":"https://kubernetes.io/icons/favicon-64.png",
                             "name":"dashboard",
                             "description":"k8s集群web管理工具"
+                        }
+                    ]
+
+                },
+                {   
+                    "tagType":"镜像源",
+                    "tagList":[
+                        {
+
+                            "homePage":"https://catalog.ngc.nvidia.com/containers?filters=&orderBy=weightPopularDESC&query=&page=&pageSize=",
+                            "icon":"https://catalog.ngc.nvidia.com/favicon.ico",
+                            "name":"NVIDIA镜像源",
+                            "description":"NVIDIA镜像源"
+                        },
+                        {
+                            "homePage":"https://container-registry.oracle.com/ords/f?p=113:10::::::",
+                            "icon":"https://container-registry.oracle.com/favicon.ico",
+                            "name":"Oracle镜像源",
+                            "description":"mysql、java、GraalVM等镜像源"
                         }
                     ]
 
@@ -1012,6 +1149,40 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "c++",
+                    "tagList": [
+                        {
+                            "homePage":"https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/",
+                            "icon":"https://visualstudio.microsoft.com/favicon.ico",
+                            "name":"msvc",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.mingw-w64.org/downloads/",
+                            "icon":"https://www.mingw-w64.org/logo.svg",
+                            "name":" MinGW-w64",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.msys2.org/",
+                            "icon":"https://www.msys2.org/favicon.ico",
+                            "name":"MSYS2",
+                            "description":"mingw团队又一力作msys2，推荐使用"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "rust",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.rust-lang.org/zh-CN",
+                            "icon":"https://www.rust-lang.org/static/images/favicon-16x16.png",
+                            "name":"Rust",
+                            "description":"rust中文官网"
+                        }
+                    ]
+                },
+                {
                     "tagType": "数据库",
                     "tagList": [
                         {
@@ -1021,8 +1192,8 @@ var webData = {
                             "description": "主流开源关系型数据库。"
                         },                        
                         {
-                            "homePage": "https://www.navicat.com.cn/download/direct-download?product=navicat170_premium_lite_cs_x64.exe&location=1",
-                            "icon": "https://labs.mysql.com/common/themes/sakila/favicon.ico",
+                            "homePage": "https://www.navicat.com.cn/download/navicat-premium-lite",
+                            "icon": "https://www.navicat.com/images/Navicat_16_Premium_win_256x256.ico",
                             "name": "navicat",
                             "description": "mysql navicat免费链接工具"
                         }
@@ -1121,6 +1292,58 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "gui",
+                    "tagList": [
+                        {
+                            "homePage":"https://v2.tauri.app/zh-cn/",
+                            "icon":"https://v2.tauri.app/favicon.svg",
+                            "name":"tauri",
+                            "description":"基于rust开发的pc、手机全平台图形化方案。"
+                        },
+                        {
+                            "homePage": "https://www.electronjs.org/",
+                            "icon": "https://static.oschina.net/uploads/logo/electron_tAOTZ.png",
+                            "name": "electron",
+                            "description": "内涵chrome的pc跨平台gui方案"
+                        },
+                        {
+                            "homePage":"https://docs.flutter.cn/get-started/install,https://github.com/flutter",
+                            "icon":"https://docs.flutter.cn/assets/images/cn/flutter-icon.png",
+                            "name":"Flutter",
+                            "description":"Flutter 中文文档 - Flutter 中文开发者网站"
+                        },
+                        {
+                            "homePage":"https://www.qt.io/",
+                            "icon":"https://www.qt.io/hubfs/QtGroup_Favicon_32.ico",
+                            "name":"qt",
+                            "description":"c++语言跨平台开发"
+                        },
+                        {
+                            "homePage":"https://www.aardio.com/,https://bbs.aardio.com/",
+                            "icon":"https://www.aardio.com/favicon.ico",
+                            "name":"aardio",
+                            "description":"小巧的自定exe文件功能封装开发框架"
+                        },
+                        {
+                            "homePage":"https://www.ultimatepp.org/",
+                            "icon":"https://www.ultimatepp.org/favicon.png",
+                            "name":"U++",
+                            "description":"一个欧洲人做的比较小众，整个代码库大概有40万行代码(核心也有10万+行)，所有控件自绘实现了，支持Windows, X-Windows, MacOS(2019年)，支持跨平台。"
+                        }
+                    ]
+                },
+                {
+                    "tagType":"小程序",
+                    "tagList":[
+                        {
+                            "homePage":"https://zh.uniapp.dcloud.io/case.html",
+                            "icon":"https://zh.uniapp.dcloud.io/favicon.ico",
+                            "name":"uni-app",
+                            "description":"小程序开发框架"
+                        }
+                    ]
+                },
+                {
                     "tagType":"资讯",
                     "tagList":[
                         {
@@ -1128,6 +1351,23 @@ var webData = {
                             "icon":"https://www.tiobe.com/favicon.ico",
                             "name":"TIOBE",
                             "description":"编程语言使用排行"
+                        }
+                    ]
+                },
+                {
+                    "tagType":"代码库",
+                    "tagList":[
+                        {
+                            "homePage": "https://github.com/",
+                            "icon": "https://github.com/favicon.ico",
+                            "name": "gitHub",
+                            "description": "世界流行源代码开放平台"
+                        },
+                        {
+                            "homePage":"https://www.codecopy.cn/",
+                            "icon":"https://www.codecopy.cn/favicon.ico",
+                            "name":"代码小炒",
+                            "description":"程序员鱼皮开发的代码分享工具"
                         }
                     ]
                 }
@@ -1141,6 +1381,31 @@ var webData = {
                 {
                     "tagType": "AI工具",
                     "tagList": [
+                        {
+                            "homePage":"https://chat.deepseek.com/",
+                            "icon":"https://cdn.deepseek.com/chat/icon.png",
+                            "name":"DeepSeek对话",
+                            "description":"2025年国产ai主角。"
+                        },
+                        {
+                            "homePage":"https://chat.scnet.cn/#/chat?activeChatId=f34f1f5b62e246734aface2b403027b00042",
+                            "icon":"https://chat.scnet.cn/favicon-isc.ico",
+                            "name":"国家超算中心ai",
+                            "description":"超算中心DeepSeek模型"
+                        },
+                        {
+                            "homePage":"https://github.com/zhangrenyang/deepseek",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"DeepSeek源码",
+                            "description":"github源码"
+                        },
+                        {
+                            "homePage":"https://www.doubao.com/chat/",
+                            "icon":"https://lf-cdn-tos.bytescm.com/obj/static/doubao_web/logo-icon.png",
+                            "name":"豆包",
+                            "description":"字节推出的 ChatGPT 类产品，免费使用。"
+                        },
+
                         {
                             "homePage":"https://yiyan.baidu.com/",
                             "icon":"https://nlp-eb.cdn.bcebos.com/logo/favicon.ico",
@@ -1159,12 +1424,7 @@ var webData = {
                             "name":"Kimi.ai",
                             "description":""
                         },                   
-                        {
-                            "homePage":"https://www.doubao.com/chat/",
-                            "icon":"https://lf-cdn-tos.bytescm.com/obj/static/doubao_web/logo-icon.png",
-                            "name":"豆包",
-                            "description":"字节推出的 ChatGPT 类产品，免费使用。"
-                        },
+                        
                         {
                             "homePage":"https://tongyi.aliyun.com/qianwen/",
                             "icon":"https://img.alicdn.com/imgextra/i4/O1CN01FOwagl1XBpyVA2QVy_!!6000000002886-2-tps-512-512.png",
@@ -1194,7 +1454,52 @@ var webData = {
                             "icon":"https://silo.kwok.ink/logo.svg",
                             "name":"silo",
                             "description":"在线多模型文本对话和文生图。"
+                        },
+                        {
+                            "homePage":"https://chat.baidu.com/search",
+                            "icon":"https://chat.baidu.com/favicon.ico",
+                            "name":"百度AI助手",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.moyin.com/",
+                            "icon":"https://tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/assets/manifest/img/icons/favicon.ico",
+                            "name":"魔音工坊",
+                            "description":"视频声音处理"
                         }
+                    ]
+                },
+                {
+                    "tagType": "编程助手",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.marscode.cn/home?utm_source=content&utm_medium=kol&utm_campaign=ruanyifeng",
+                            "icon":"https://lf-cdn.marscode.cn/obj/marscode-bucket-cn/marscode-favicon.ico",
+                            "name":"marscode",
+                            "description":"豆包旗下AI编程开发助手"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "声音克隆",
+                    "tagList": [
+                        {
+                            "homePage":"https://anyvoice.net/zh/ai-voice-cloning",
+                            "icon":"https://anyvoice.net/favicon.ico",
+                            "name":"AI声音克隆",
+                            "description":"3秒克隆声音"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "文字生成视频",
+                    "tagList": [
+                            {
+                                "homePage":"https://aimovie.newmin.cn/",
+                                "icon":"https://aimovie.newmin.cn/favicon.ico",
+                                "name":"元镜",
+                                "description":"一段文字生成图片，进一步生成视频。"
+                            }
                     ]
                 },
                 {
@@ -1205,12 +1510,6 @@ var webData = {
                             "icon":"https://stablediffusion3.net/favicon.ico",
                             "name":"stablediffusion3",
                             "description":"在线文本生成图片"
-                        },
-                        {
-                            "homePage":"https://paint.weta365.com/",
-                            "icon":"https://paint.weta365.com/favicon.ico",
-                            "name":"言之画",
-                            "description":"国内文本生成图片网站，需要注册"
                         },
                         {
                             "homePage":"https://aigc.360.com/",
@@ -1240,6 +1539,12 @@ var webData = {
                             "icon":"https://elevenlabs.io/favicon.ico",
                             "name":"ElevenLabs",
                             "description":"在线文本转语音"
+                        },
+                        {
+                            "homePage":"https://easyvoice.ioplus.tech/",
+                            "icon":"https://easyvoice.ioplus.tech/favicon.ico",
+                            "name":"easyvoice",
+                            "description":"支持长篇小说转换，多人物语意。"
                         }
 
                     ]
@@ -1319,6 +1624,23 @@ var webData = {
                         }
 
                     ]
+                },
+                {
+                    "tagType":"本地ai软件",
+                    "tagList":[
+                        {
+                            "homePage":"https://want-ai.top/writer/",
+                            "icon":"https://want-ai.top//_astro/favicon.gErAxO2c.ico",
+                            "name":"爱享绘画",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://github.com/k4yt3x/video2x",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"video2x",
+                            "description":"图片视频超清化"
+                        }
+                    ]
                 }
 
             ]
@@ -1343,7 +1665,7 @@ var webData = {
                             "description":"无虚拟DOM版本的vue，体积更小，速度更快，当前开为开发阶段。"
                         },
                         {
-                            "homePage":"https://s-test.belle.cn/zh-CN/component/button.html",
+                            "homePage":"https://elementplus.fenxianglu.cn/zh-CN/component/button.html",
                             "icon":"https://s-test.belle.cn//images/element-plus-logo-small.svg",
                             "name":"Element Plus",
                             "description":""
@@ -1466,7 +1788,7 @@ var webData = {
                     ]
                 },
                 {
-                    "tagType": "css",
+                    "tagType": "css框架",
                     "tagList": [
                         {
                             "homePage": "https://tailwindcss.com/",
@@ -1519,6 +1841,29 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "css实例库",
+                    "tagList": [
+                        {
+                            "homePage":"https://csscoco.com/inspiration/",
+                            "icon":"https://csscoco.com/inspiration/logo2.png",
+                            "name":"csc inspiration",
+                            "description":"css灵感网站"
+                        },
+                        {
+                            "homePage":"https://animate.style/",
+                            "icon":"https://animate.style/img/favicon.ico",
+                            "name":"Animate.css",
+                            "description":"css动画效果库"
+                        },
+                        {
+                            "homePage":"http://www.species-in-pieces.com/",
+                            "icon":"http://www.species-in-pieces.com/favicon.ico",
+                            "name":"In Pieces",
+                            "description":"30块方块组成的濒危动物图形，完全用css实现。"
+                        }
+                    ]
+                },
+                {
                     "tagType": "配色方案",
                     "tagList": [
                         {
@@ -1532,6 +1877,12 @@ var webData = {
                             "icon": "http://zhongguose.com/favicon.ico",
                             "name": "中国传统颜色",
                             "description": ""
+                        },
+                        {
+                            "homePage":"https://uchu.style/",
+                            "icon":"https://uchu.style/./favicon.svg",
+                            "name":"uchū demo",
+                            "description":""
                         }
                     ]
                 },
@@ -1615,16 +1966,82 @@ var webData = {
                             "description": "全屏插件"
                         },
                         {
-                            "homePage": "https://www.electronjs.org/",
-                            "icon": "https://static.oschina.net/uploads/logo/electron_tAOTZ.png",
-                            "name": "electron",
-                            "description": "跨平台桌面应用程序"
-                        },
-                        {
                             "homePage":"https://cdn.jsdelivr.net/npm/qs/dist/qs.min.js",
                             "icon":"",
                             "name":"qj",
                             "description":"格式化数据，请求springboot"
+                        },
+                        {
+                            "homePage":"https://www.jimureport.com/reportDemo",
+                            "icon":"https://www.jimureport.com/favicon.ico",
+                            "name":"积木报表官网",
+                            "description":"大屏图标库"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "Three.js",
+                    "tagList": [
+
+                        {
+                            "homePage":"http://webgl3d.cn/",
+                            "icon":"http://webgl3d.cn/favicon.ico",
+                            "name":"Three.js中文网",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.carstenmell.com/",
+                            "icon":"",
+                            "name":"Carsten Mell Illustration, Illustrator und Comiczeichner",
+                            "description":"该网站主要展示插画师 Carsten Mell 的个人作品与服务，包括插图、漫画和相关艺术项目。"
+                        },
+                        {
+                            "homePage":"https://victor-marin.dev/",
+                            "icon":"https://victor-marin.dev/assets/Favicon/favicon-32x32.png",
+                            "name":"Victor Marin",
+                            "description":"这是一份交互式简历。"
+                        },
+                        {
+                            "homePage":"https://neon-city.netlify.app/",
+                            "icon":"https://neon-city.netlify.app/53e9dbc3bb014f8c.ico",
+                            "name":"霓虹城",
+                            "description":"作者用 Three.js 和 Blender 制作的 3D 交互式作品集。灯红酒绿的霓虹城，鲜艳夺目的色彩、动态变幻的图案和文字装点着建筑物的轮廓、招牌、广告牌以及街头巷尾，在夜晚展现出独特的魅力。"
+                        },
+                        {
+                            "homePage":"https://www.pranavaa.com/",
+                            "icon":"https://www.pranavaa.com/favicon.ico",
+                            "name":"pranavaa",
+                            "description":"一位充满故事的男人的个人网站"
+                        },
+                        {
+                            "homePage":"https://yapacdev.com/",
+                            "icon":"https://yapacdev.com/icon.ico?85dcaf7693c91119",
+                            "name":"Yapac",
+                            "description":"作者从使用纯 HTML + JS + Three.js 更新为使用 React.js + Three.js。一个非常年轻的软件工程师，02年出生在摩洛哥。"
+                        },
+                        {
+                            "homePage":"https://thesigner.pl/",
+                            "icon":"https://thesigner.pl/favicon-32x32.40cc04e5.png",
+                            "name":"thesigner",
+                            "description":"一个具有 Three.js 背景的简单个人展示页面。在滚动中过渡两个简单的元素，加上光影效果，科技感十足。"
+                        },
+                        {
+                            "homePage":"https://ivankapunac.com/",
+                            "icon":"",
+                            "name":"Ivan Kapunac",
+                            "description":"露营小屋为主题的个人网站，采用Three.js作为核心技术，将呈现出一个沉浸式、交互式的3D虚拟环境，让用户仿佛置身于宁静而充满自然气息的露营场景之中。"
+                        },
+                        {
+                            "homePage":"https://rahulvuppala.in/",
+                            "icon":"https://rahulvuppala.in/images/code.png",
+                            "name":"Rahul Vuppala",
+                            "description":"简约干净的作品集网站。"
+                        },
+                        {
+                            "homePage":"https://gamemcu.com/su7/",
+                            "icon":"https://gamemcu.com/favicon.ico",
+                            "name":"小米su7",
+                            "description":"小米su7在线体验网站，查看风阻、定制皮肤，展示狂飙动态。"
                         }
                     ]
                 },
@@ -1636,17 +2053,6 @@ var webData = {
                             "icon": "https://help-assets.codehub.cn/enterprise/guanwang/favicon.ico",
                             "name": "AwA Ui",
                             "description": "个人按钮、加载、开关、输出框、创想代码实例，方便快速构建个人前端应用。"
-                        }
-                    ]
-                },
-                {
-                    "tagType": "建站",
-                    "tagList": [
-                        {
-                            "homePage":"https://cn.xeu.life/feed/12,https://github.com/OXeu/Rin/blob/main/docs/DEPLOY.md",
-                            "icon":"https://cn.xeu.life/favicon.png",
-                            "name":"xeu杂食动物",
-                            "description":""
                         }
                     ]
                 }
@@ -1758,42 +2164,89 @@ var webData = {
                             "description":"屏幕缩放、批注和录制工具，用于包括应用程序演示的技术演示文稿。"
                         },
                         {
-                            "homePage":"https://www.tbtool.cn/",
-                            "icon":"https://www.tbtool.cn/favicon.ico",
-                            "name":"图吧工具箱",
-                            "description":""
-                        },
-                        {
                             "homePage":"https://guanjia.lenovo.com.cn/",
                             "icon":"https://guanjia.lenovo.com.cn/favicon.ico",
                             "name":"联想电脑",
                             "description":""
                         },
                         {
-                            "homePage":"https://geekuninstaller.com/download",
-                            "icon":"https://geekuninstaller.com/favicon.ico",
-                            "name":"Geek Uninstaller",
-                            "description":"干净卸载软件工具"
-                        },
-                        {
-                            "homePage":"http://www.xabyb.com/",
-                            "icon":"",
-                            "name":"追光护眼",
-                            "description":"国内免费护眼软件"
-                        },
-                        {
-                            "homePage":"https://justgetflux.com/",
-                            "icon":"https://justgetflux.com/favicon.ico",
-                            "name":"f.lux",
-                            "description":"国外免费护眼软件"
-                        },
-                        {
                             "homePage":"https://calibre-ebook.com/",
                             "icon":"https://calibre-ebook.com/favicon.ico",
                             "name":"calibre",
                             "description":"电子书阅读器，python语言开发，支持多种文件格式"
+                        },
+                        {
+                            "homePage":"http://www.haoxg.net/ediary/index.html",
+                            "icon":"",
+                            "name":"Ediary",
+                            "description":"更新二十几年的个人日记软件，安装包小，支持加密，功能丰富。"
+                        },
+                        {
+                            "homePage":"https://www.sumatrapdfreader.org/downloadafter",
+                            "icon":"https://www.sumatrapdfreader.org/favicon.ico",
+                            "name":"Sumatra PDF",
+                            "description":"轻量简洁的阅读器，速度很快。PDF、EPUB、MOBI、XPS、DjVu、CBZ、CBR、CHM 等格式支持超级全面"
                         }
                     ]
+                },
+                {
+                    "tagType": "windows工具",
+                    "tagList": [
+                            {
+                                "homePage":"https://getquicker.net/",
+                                "icon":"https://getquicker.net/favicon.ico",
+                                "name":"Quicker",
+                                "description":"自定快速唤醒菜单，支持ocr，支持自定义动作，支持插件库，很牛。"
+                            },
+                            {
+                                "homePage":"https://geekuninstaller.com/download",
+                                "icon":"https://geekuninstaller.com/favicon.ico",
+                                "name":"Geek",
+                                "description":"干净卸载软件工具"
+                            },
+                            {
+                                "homePage":"http://www.xabyb.com/",
+                                "icon":"",
+                                "name":"追光护眼",
+                                "description":"国内免费护眼软件"
+                            },
+                            {
+                                "homePage":"https://justgetflux.com/",
+                                "icon":"https://justgetflux.com/favicon.ico",
+                                "name":"f.lux",
+                                "description":"国外免费护眼软件"
+                            },
+                            {
+                                "homePage":"https://www.tbtool.cn/",
+                                "icon":"https://www.tbtool.cn/favicon.ico",
+                                "name":"图吧工具箱",
+                                "description":""
+                            },
+                            {
+                                "homePage": "https://www.diskanalyzer.com/download",
+                                "icon": "https://www.diskanalyzer.com/favicon-32x32.png",
+                                "name": "WizTree",
+                                "description": "磁盘清理工具"
+                            },
+                            {
+                                "homePage": "https://ditto-cp.sourceforge.io/,https://github.com/sabrogden/Ditto/releases/",
+                                "icon": "https://ditto-cp.sourceforge.io/Ditto2.png",
+                                "name": "Ditto",
+                                "description": "剪切板工具"
+                            },
+                            {
+                                "homePage": "https://freefilesync.org/download.php",
+                                "icon": "https://freefilesync.org/images/freefilesync.ico",
+                                "name": "FreeFileSync",
+                                "description": "文件同步"
+                            },
+                            {
+                                "homePage":"https://www.carifred.com/quick_any2ico/",
+                                "icon":"https://www.carifred.com/favicon.ico",
+                                "name":"exe提取ico",
+                                "description":"Quick Any2Ico 提取exe文件中的ico文件"
+                            }
+                        ]
                 },
                 {
                     "tagType": "浏览器",
@@ -1817,16 +2270,28 @@ var webData = {
                             "description":""
                         },
                         {
+                            "homePage":"https://github.com/ungoogled-software/ungoogled-chromium,https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"ungoogled-chromium",
+                            "description":"官方chrome二次剪切"
+                        },
+                        {
                             "homePage":"https://www.waterfox.net/",
                             "icon":"https://www.waterfox.net/favicon.ico",
                             "name":"waterfox",
                             "description":"水狐浏览器和火狐同一个内核。"
                         },
                         {
-                            "homePage":"https://github.com/ungoogled-software/ungoogled-chromium,https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
-                            "icon":"https://github.com/favicon.ico",
-                            "name":"ungoogled-chromium",
-                            "description":"官方chrome二次剪切"
+                            "homePage":"https://gosub.io/,https://github.com/gosub-io/gosub-engine",
+                            "icon":"https://gosub.io/favicon.ico",
+                            "name":"Gosub",
+                            "description":"rust重写的浏览器，开发中，等发包。"
+                        },
+                        {
+                            "homePage":"https://browser.yandex.com/",
+                            "icon":"https://browser.yandex.com/favicon.ico",
+                            "name":"Yandex",
+                            "description":"俄罗斯搜索引擎商 Yandex 开发的浏览器软件"
                         }
                     ]
                 },
@@ -1848,6 +2313,23 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "浏览器插件库",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.chajianxw.com/",
+                            "icon":"https://www.chajianxw.com/static/favicon.ico",
+                            "name":"插件小屋",
+                            "description":"Chrome插件,谷歌浏览器扩展下载,Chrome应用商店,离线安装包下载,crx扩展安装"
+                        },
+                        {
+                            "homePage":"https://chrome.zzzmh.cn/extension",
+                            "icon":"https://chrome.zzzmh.cn/favicon.ico",
+                            "name":"极简插件",
+                            "description":"chrome插件库"
+                        }
+                    ]
+                },
+                {
                     "tagType": "浏览器插件",
                     "tagList": [
                         {
@@ -1855,12 +2337,6 @@ var webData = {
                             "icon":"https://greasyfork.org/vite/assets/blacklogo16-bc64b9f7.png",
                             "name":"下载助手",
                             "description":""
-                        },
-                        {
-                            "homePage":"https://chrome.zzzmh.cn/extension",
-                            "icon":"https://chrome.zzzmh.cn/favicon.ico",
-                            "name":"极简插件",
-                            "description":"chrome插件库"
                         },
                         {
                             "homePage":"https://immersivetranslate.com/",
@@ -1877,7 +2353,7 @@ var webData = {
                     ]
                 },
                 {
-                    "tagType": "图片",
+                    "tagType": "图片编辑",
                     "tagList": [
                         {
                             "homePage":"https://krita.org/zh/download-zh/krita-desktop-zh/,https://github.com/KDE/krita,https://docs.krita.org/zh_CN/",
@@ -1890,6 +2366,23 @@ var webData = {
                             "icon":"https://github.com/favicon.ico",
                             "name":"gimp",
                             "description":"偏向照片处理的图像软件，建议ps一套搞定。"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "图片查看",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.irfanview.com/",
+                            "icon":"https://www.irfanview.com/favicon.ico",
+                            "name":"IrfanView",
+                            "description":"体量小速度快的图片查看器。"
+                        },
+                        {
+                            "homePage":"http://www.softerviews.org/FastStoneViewer.html",
+                            "icon":"http://www.softerviews.org/favicon.ico",
+                            "name":"FastStoneViewer",
+                            "description":""
                         }
                     ]
                 },
@@ -1949,6 +2442,12 @@ var webData = {
                             "icon": "https://bkimg.cdn.bcebos.com/pic/f636afc379310a55764bc76ebe4543a982261038?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_auto",
                             "name": "potPlayer",
                             "description": "好用的视频播放软件"
+                        },
+                        {
+                            "homePage":"https://olivevideoeditor.org/,https://github.com/olive-editor/olive",
+                            "icon":"https://olivevideoeditor.org/img/olive-adaptive.svg",
+                            "name":"olive",
+                            "description":"开发中一款免费、开源的非线性视频剪辑工具。非线性视频剪辑是指将图片、音乐、特效等素材与视频进行混合编辑，虽然该项目完全免费"
                         }
                     ]
                 },
@@ -1960,6 +2459,30 @@ var webData = {
                             "icon":"https://www.zhixi.com/favicon.ico",
                             "name":"知犀思维导图",
                             "description":"支持网页和本地的脑图工具"
+                        },
+                        {
+                            "homePage":"https://jiashuiyin.com/,https://github.com/pdmaker/watermark-master",
+                            "icon":"https://jiashuiyin.com/images/favicon.ico",
+                            "name":"加水印",
+                            "description":"图片添加水印"
+                        },
+                        {
+                            "homePage":"https://icraft.gantcloud.com/zh-CN",
+                            "icon":"https://icraft.gantcloud.com/favicon.ico",
+                            "name":"iCraft Editor",
+                            "description":"3D架构图绘制工具"
+                        },
+                        {
+                            "homePage":"https://design.palxp.cn/home,https://github.com/palxiao/poster-design",
+                            "icon":"https://design.palxp.cn:5175/static/1730043322678_913969.ico",
+                            "name":"迅排设计",
+                            "description":"在线海报设计软件"
+                        },
+                        {
+                            "homePage":"https://tools.miku.ac/",
+                            "icon":"https://mikutools.cdn.hatsune.tech/icons/icon_64x64.3ecd30.png",
+                            "name":"MikuTools",
+                            "description":"在线工具网站，涵盖热门、数据转换、图片相关、文字处理、编程开发"
                         }
                     ]
                 },
@@ -2037,6 +2560,12 @@ var webData = {
                             "icon":"https://github.com/favicon.ico",
                             "name":"genact",
                             "description":"摸鱼神器"
+                        },
+                        {
+                            "homePage":"https://www.yingdao.com/",
+                            "icon":"https://winrobot-pub-a-oss.winrobot360.com/static/home/favicon.ico",
+                            "name":"影刀RPA",
+                            "description":"按键精灵增强版官产软件"
                         }
                     ]
                 },
@@ -2072,7 +2601,13 @@ var webData = {
                             "homePage":"https://repo.jellyfin.org/?path=/server/windows/latest-stable/amd64",
                             "icon":"https://repo.jellyfin.org/favicon.ico",
                             "name":"Jellyfin",
-                            "description":"网盘资源管理软件"
+                            "description":"Nax资源管理软件"
+                        },
+                        {
+                            "homePage":"https://alist.nn.ci/zh/,https://alist.nn.ci/zh/guide/webdav.html",
+                            "icon":"https://alist.nn.ci/favicon.ico",
+                            "name":"alist",
+                            "description":"golang开发的一个支持多种存储的文件列表程序，使用 Gin 和 Solidjs。"
                         }
                     ]
                 },
@@ -2105,38 +2640,44 @@ var webData = {
                         },
                         {
                             "homePage":"https://visualstudio.microsoft.com/zh-hans/",
-                            "icon":"https://visualstudio.microsoft.com/favicon.ico",
+                            "icon":"https://visualstudio.microsoft.com/wp-content/uploads/2017/02/Microsoft-favicon.png",
                             "name":"Visual Studio",
                             "description":""
                         }
                     ]
                 },
                 {
-                    "tagType": "其他",
+                    "tagType": "桌面软件",
                     "tagList": [
-                        {
-                            "homePage": "https://www.diskanalyzer.com/download",
-                            "icon": "https://www.diskanalyzer.com/favicon-32x32.png",
-                            "name": "WizTree",
-                            "description": "磁盘清理工具"
-                        },
-                        {
-                            "homePage": "https://ditto-cp.sourceforge.io/,https://github.com/sabrogden/Ditto/releases/",
-                            "icon": "https://ditto-cp.sourceforge.io/Ditto2.png",
-                            "name": "Ditto",
-                            "description": "剪切板工具"
-                        },
-                        {
-                            "homePage": "https://freefilesync.org/download.php",
-                            "icon": "https://freefilesync.org/images/freefilesync.ico",
-                            "name": "FreeFileSync",
-                            "description": "文件同步"
-                        },
                         {
                             "homePage": "https://mylivewallpapers.com/how-to-set-live-wallpaper-for-your-desktop-using-mlwapp/",
                             "icon": "https://mylivewallpapers.com/wp-content/uploads/fbrfg/favicon-32x32.png",
                             "name": "MLWapp",
                             "description": "myLivewallpaper发布免费桌面壁纸软件"
+                        },
+                        {
+                            "homePage":"https://zmde.yijoys.com/,https://store.steampowered.com/app/3003300/_/",
+                            "icon":"https://zmde.yijoys.com/favicon.ico",
+                            "name":"战盟桌面精灵",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://n0va.mihoyo.com/",
+                            "icon":"https://n0va.mihoyo.com/favicon.ico",
+                            "name":"人工桌面官方网站",
+                            "description":"yoyo鹿鸣动态壁纸"
+                        }
+                    ]
+                },
+
+                {
+                    "tagType": "阅读器",
+                    "tagList": [
+                        {
+                            "homePage":"https://readest.com/,https://github.com/readest/readest",
+                            "icon":"https://readest.com/icons/favicon.ico",
+                            "name":"readest",
+                            "description":"开源全平台现代阅读器，基于Tauri + Next.js 开发。"
                         }
                     ]
                 },
@@ -2148,6 +2689,18 @@ var webData = {
                             "icon":"https://github.com/favicon.ico",
                             "name":"益达",
                             "description":"rust+flutter开发的漫画小说阅读软件"
+                        },
+                        {
+                            "homePage":"https://github.com/Predidit/Kazumi",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"kazumi",
+                            "description":"flutter开发的多平台追番工具"
+                        },
+                        {
+                            "homePage":"https://github.com/spieglt/FlyingCarpet",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"FlyingCarpet",
+                            "description":"rust开发，使用ad-hoc技术，在无wifi热点情况下，实现跨平台设备间高速、加密传输文件。"
                         }
                     ]
                 },
@@ -2161,10 +2714,39 @@ var webData = {
                             "description":"B站资源下载工具"
                         },
                         {
+                            "homePage":"https://www.neatdownloadmanager.com/index.php/en/",
+                            "icon":"https://www.neatdownloadmanager.com/templates/neat/favicon.ico",
+                            "name":"Neat Download Manager",
+                            "description":"ide下载器免费替代版"
+                        },
+                        {
                             "homePage":"https://github.com/iawia002/lux",
                             "icon":"https://github.com/favicon.ico",
                             "name":"lux",
                             "description":"B站资源下载工具"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "内网穿透",
+                    "tagList": [
+                        {
+                            "homePage":"https://github.com/EasyTier/EasyTier/blob/main/README_CN.md,https://blog.ysicing.net/easytier",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"EasyTier",
+                            "description":"rust开发内网穿透软件，基于p2p技术，无需公网ip。"
+                        },
+                        {
+                            "homePage":"https://github.com/fatedier/frp",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"frp",
+                            "description":"需要外网服务器做通信中转"
+                        },
+                        {
+                            "homePage":"https://www.zerotier.com/",
+                            "icon":"https://www.zerotier.com/wp-content/uploads/2024/05/favicon-32x32-1.png",
+                            "name":"zerotier",
+                            "description":"国外异地组网方案，网络延迟大。"
                         }
                     ]
                 },
@@ -2244,10 +2826,16 @@ var webData = {
                             "description":""
                         },
                         {
-                            "homePage":"https://github.com/Predidit/Kazumi",
+                            "homePage":"https://github.com/guozhigq/pilipala",
                             "icon":"https://github.com/favicon.ico",
-                            "name":"kazumi",
-                            "description":"flutter开发的多平台追番工具"
+                            "name":"pilipala",
+                            "description":"flutter开发开源b站客户端"
+                        },
+                        {
+                            "homePage":"https://czy0729.github.io/Bangumi-Storybook/storybook-static/iframe.html?id=screens-discovery--discovery&viewMode=story,https://github.com/czy0729/Bangumi",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"Bangumi",
+                            "description":"一个无广告、以爱好为驱动、不以盈利为目的、专门做 ACG 的类似豆瓣的追番记录，bgm.tv 第三方客户端。为移动端重新设计，内置大量加强的网页端难以实现的功能，且提供了相当的自定义选项。 目前已适配 iOS / Android / WSA、mobile / 简单 pad、light / dark theme、移动端网页。"
                         }
                     ]
                 },
@@ -2348,6 +2936,34 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType":"独立开发",
+                    "tagList":[
+                        {
+                            "homePage":"https://github.com/yaolifeng0629/Awesome-independent-tools?tab=readme-ov-file",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"独立开发者",
+                            "description":"独立开发者前后端框架库总结整理。"
+                        }
+                    ]
+                },
+                {
+                    "tagType":"实践项目",
+                    "tagList":[
+                        {
+                            "homePage":"https://wyag-zh.hanyujie.xyz/",
+                            "icon":"https://wyag-zh.hanyujie.xyz/favicon.ico",
+                            "name":"自己手写git",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://learning-guide.gitbook.io/system-design-interview",
+                            "icon":"https://learning-guide.gitbook.io/system-design-interview/~gitbook/icon?size=small&theme=light",
+                            "name":"系统设计面试：内幕指南",
+                            "description":"系统设计"
+                        }
+                    ]
+                },
+                {
                     "tagType": "java",
                     "tagList": [
                         {
@@ -2423,19 +3039,6 @@ var webData = {
                     ]
                 },
                 {
-                    "tagType": "学习平台",
-                    "tagList": [
-
-                        {
-                            "homePage":"https://www.icourse163.org/",
-                            "icon":"https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100",
-                            "name":"中国大学MOOC",
-                            "description":"在线中国各大学学习视频资源"
-                        }
-
-                    ]
-                },
-                {
                     "tagType": "数据库开发",
                     "tagList": [
 
@@ -2462,7 +3065,7 @@ var webData = {
                     ]
                 },
                 {
-                    "tagType": "c/c++",
+                    "tagType": "c",
                     "tagList": [
 
                         {
@@ -2471,6 +3074,32 @@ var webData = {
                             "name": "网道C教程",
                             "description": "C语言从基础到应用库"
                         },
+                        {
+                            "homePage":"https://learn.microsoft.com/zh-cn/cpp/c-language/?view=msvc-170",
+                            "icon":"https://learn.microsoft.com/favicon.ico",
+                            "name":"微软c教程",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://c.biancheng.net/c/",
+                            "icon":"https://c.biancheng.net/favicon.ico",
+                            "name":"C语言中文网",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://c-cpp.com/",
+                            "icon":"https://c-cpp.com/icon.png",
+                            "name":"C语言|C++中文网",
+                            "description":""
+                        }
+
+
+                    ]
+                },
+                {
+                    "tagType": "c++",
+                    "tagList": [
+
                         {
                             "homePage": "https://github.com/applenob/Cpp_Primer_Practice",
                             "icon": "https://github.com/favicon.ico",
@@ -2482,6 +3111,12 @@ var webData = {
                             "icon": "https://cntransgroup.github.io/EffectiveModernCppChinese/favicon.svg",
                             "name": "Effective c++ ",
                             "description": "Effective在线图书"
+                        },
+                        {
+                            "homePage":"https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170",
+                            "icon":"https://learn.microsoft.com/favicon.ico",
+                            "name":"微软c++教程",
+                            "description":""
                         }
 
 
@@ -2561,6 +3196,12 @@ var webData = {
                             "icon":"https://zhuanlan.zhihu.com/favicon.ico",
                             "name":"汇编语言入门教程",
                             "description":"介绍汇编语言"
+                        },
+                        {
+                            "homePage":"https://learn.microsoft.com/zh-cn/cpp/intrinsics/?view=msvc-170",
+                            "icon":"https://learn.microsoft.com/favicon.ico",
+                            "name":"微软汇编教程",
+                            "description":""
                         }
 
                     ]
@@ -2569,7 +3210,7 @@ var webData = {
                     "tagType": "zig",
                     "tagList": [
                         {
-                            "homePage":"https://ziglang.org/zh/",
+                            "homePage":"https://ziglang.org/zh-CN/",
                             "icon":"https://ziglang.org/favicon.ico",
                             "name":"Zig",
                             "description":"类c语言"
@@ -2694,7 +3335,7 @@ var webData = {
                             "homePage":"https://www.pc521.net/",
                             "icon":"https://www.pc521.net/favicon.ico",
                             "name":"不忘初心博客-精简版系统官网",
-                            "description":""
+                            "description":"第三方修改操作系统"
                         },
                         {
                             "homePage":"https://pan.baidu.com/s/1wjD8qQeos50vpHvRSHW7Qw?_at_=1633944395373#list/path=%2Fsharelink1975930430-244365294644948%2F9035&parentPath=%2Fsharelink1975930430-244365294644948",
@@ -2896,6 +3537,12 @@ var webData = {
                             "icon": "https://v.qq.com/favicon.ico",
                             "name": "腾讯视频",
                             "description": "冲了会员，慢慢看吧"
+                        },
+                        {
+                            "homePage":"https://www.ixigua.com/channel/jilupian",
+                            "icon":"https://www.ixigua.com/favicon.ico",
+                            "name":"西瓜视频记录片",
+                            "description":""
                         }
                     ]
                 },
@@ -2934,6 +3581,17 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "纪录片",
+                    "tagList": [
+                        {
+                            "homePage":"http://www.docuchina.cn/",
+                            "icon":"http://www.docuchina.cn/favicon.ico",
+                            "name":"中国纪录片网",
+                            "description":"国家级的纪录片资源，央视出品"
+                        }
+                    ]
+                },
+                {
                     "tagType": "在线动漫",
                     "tagList": [
                         {
@@ -2964,6 +3622,12 @@ var webData = {
                             "icon":"https://edu-image.nosdn.127.net/034B6C53B270CC44D56476BBE94C95E4.png",
                             "name":"6080",
                             "description":"国内视频资源网站，视频播放速速快。"
+                        },
+                        {
+                            "homePage":"https://www.zxzj.site/",
+                            "icon":"",
+                            "name":"在线之家",
+                            "description":"在线之家导航地址"
                         },
                         {
                             "homePage": "https://dyxs20.com/?www.dianyingim.com",
@@ -3005,6 +3669,17 @@ var webData = {
                             "icon":"https://uugg1.cn/favicon.ico",
                             "name":"小白短剧搜索",
                             "description":"短视频搜索"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "短剧",
+                    "tagList": [
+                        {
+                            "homePage":"https://www.kdocs.cn/l/cePrBOXrkTzs?R=L1MvMQ==",
+                            "icon":"https://qn.cache.wpscdn.com/kdocs/kd-pic-resource/format/v1/icons/png/dbs-36.png",
+                            "name":"免费短剧.dbt",
+                            "description":"网盘资源短剧"
                         }
                     ]
                 },
@@ -3089,7 +3764,7 @@ var webData = {
                         },
                         {
                             "homePage": "https://bruno-simon.com/",
-                            "icon": "https://bruno-simon.com//favicon/favicon-32x32.png",
+                            "icon": "https://bruno-simon.com/favicon/favicon-32x32.png",
                             "name": "BrunoSimon",
                             "description": "网页版3D小车"
                         },
@@ -3128,6 +3803,12 @@ var webData = {
                             "icon":"https://project.threejs-tetris-react.rylan.cn/favicon.ico",
                             "name":"threejs-tetris-react",
                             "description":"3d版俄罗斯方块"
+                        },
+                        {
+                            "homePage":"https://play.typeracer.com/",
+                            "icon":"https://play.typeracer.com/favicon.ico",
+                            "name":"TypeRacer",
+                            "description":"打字游戏"
                         }
 
                     ]
@@ -3224,6 +3905,12 @@ var webData = {
                             "description": "原steam++"
                         },
                         {
+                            "homePage":"https://launcher.mihoyo.com/",
+                            "icon":"https://sdk.mihoyo.com/hyp/agreement/images/favicon.ico",
+                            "name":"米哈游启动器",
+                            "description":"米哈游游戏启动器，可用于管理原神、崩铁、绝区零、崩坏等所有米家游戏。"
+                        },
+                        {
                             "homePage":"https://bluemaxima.org/flashpoint/downloads/",
                             "icon":"",
                             "name":"flash游戏仓库",
@@ -3234,6 +3921,12 @@ var webData = {
                             "icon":"https://github.com/favicon.ico",
                             "name":"米哈游游戏启动器",
                             "description":"包含崩坏、崩铁、原神"
+                        },
+                        {
+                            "homePage":"https://github.com/shadps4-emu/shadPS4",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"shadPS4",
+                            "description":"ps4模拟器"
                         }
 
                     ]
@@ -3369,12 +4062,6 @@ var webData = {
                 {
                     "tagType": "图搜图",
                     "tagList": [
-                        {
-                            "homePage": "https://huaban.com/follow",
-                            "icon": "https://huaban.com/favicon.ico",
-                            "name": "花瓣",
-                            "description": "照片、绘画资源网站，可以建立自己的绘画库"
-                        },
                         {
                             "homePage":"https://picfind.top/",
                             "icon":"https://picfind.top/logo.webp",
@@ -3693,7 +4380,7 @@ var webData = {
                         {
                             "homePage":"https://github.com/lyswhut/lx-music-desktop",
                             "icon":"https://github.com/favicon.ico",
-                            "name":"",
+                            "name":"lx-music-desktop",
                             "description":"落雪音乐播放器， Electron + Vue开发"
                         }
                     ]
@@ -3719,10 +4406,10 @@ var webData = {
                             "description": "在线白噪音网站，发送时用"
                         },
                         {
-                            "homePage": "https://www.tree.fm/",
-                            "icon": "https://assets.website-files.com/5f59e3c5d2dc12a2f6762402/5f79a3fdc95a803d10793d24_Fav.png",
-                            "name": "森林白噪声",
-                            "description": "可切换各个森林"
+                            "homePage":"https://soundbox.fun/sounds/rain5-coffee30/",
+                            "icon":"https://soundbox.fun/favicon.ico",
+                            "name":"Sound Box",
+                            "description":"可以调节背景音大小的白噪音网站"
                         }
                     ]
                 }
@@ -3789,12 +4476,6 @@ var webData = {
                     "tagType": "传统图书",
                     "tagList": [
                         {
-                            "homePage":"http://qikan.lifves.com/",
-                            "icon":"http://qikan.lifves.com/favicon.ico",
-                            "name":"网页版意林",
-                            "description":""
-                        },
-                        {
                             "homePage":"https://sobooks.cc/xiaoshuowenxue",
                             "icon":"https://sobooks.cc/favicon.ico",
                             "name":"SoBooks",
@@ -3805,6 +4486,34 @@ var webData = {
                             "icon":"http://read.nlc.cn//static/style/images/gutu_logo.jpg",
                             "name":"国家图书馆",
                             "description":""
+                        }
+                    ]
+                },
+                {
+                    "tagType": "zlibrary",
+                    "tagList": [
+                        {
+                            "homePage":"https://zh.zlib-book.top/",
+                            "icon":"https://zh.zlib-book.top/favicon.ico",
+                            "name":"Z-Library",
+                            "description":"图书资源，下载需要登录，支持在线阅读。"
+                        },
+                        {
+                            "homePage":"https://z-libraryssa.github.io/p/zlibrary.html",
+                            "icon":"https://z-libraryssa.github.io/images/favicon-32x32-next.png",
+                            "name":"入口博客",
+                            "description":""
+                        }
+                    ]
+                },
+                {
+                    "tagType": "图书解读",
+                    "tagList": [
+                        {
+                            "homePage":"https://qread.xmsoushu.com/",
+                            "icon":"https://qread.xmsoushu.com/favicon.ico",
+                            "name":"熊猫速读",
+                            "description":"知名图书解读"
                         }
                     ]
                 },
@@ -3886,6 +4595,30 @@ var webData = {
                             "icon":"https://aspoem.com/favicon.ico",
                             "name":"Aspoem",
                             "description":"在线古文阅读学习网站"
+                        },
+                        {
+                            "homePage":"https://sou-yun.cn/",
+                            "icon":"https://sou-yun.cn/favicon.ico",
+                            "name":"搜韵",
+                            "description":"搜韵网共收录约 90 万首古今诗词作品，其中近现代及之前的诗词作品约 83 万"
+                        },
+                        {
+                            "homePage":"https://www.chinesepoems.org/",
+                            "icon":"https://www.chinesepoems.org/favicon.ico",
+                            "name":"唐韵",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://www.nlc.cn/pcab/",
+                            "icon":"",
+                            "name":"中国古籍保护网",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://larryzhu-dev.github.io/thebookofchanges/",
+                            "icon":"https://larryzhu-dev.github.io/yi.svg",
+                            "name":"周易",
+                            "description":"在线周易卦象总纲网站"
                         }
                     ]
                 },
@@ -4041,7 +4774,7 @@ var webData = {
                         },
                         {
                             "homePage":"https://www.pansearch.me/",
-                            "icon":"https://www.pansearch.me//favicon.png",
+                            "icon":"https://www.pansearch.me/favicon.png",
                             "name":"PanSearch",
                             "description":""
                         },
@@ -4145,6 +4878,35 @@ var webData = {
                             "icon": "https://www.mini4k.com/themes/white/favicon.ico",
                             "name": "MINI4K迷客电影",
                             "description": "综合视频资源下载平台"
+                        }
+                    ]
+                },
+                {
+                    "tagType":"日漫资源",
+                    "tagList":[
+                        {
+                            "homePage":"https://share.acgnx.cc/",
+                            "icon":"https://share.acgnx.cc/favicon.ico",
+                            "name":"末日动漫资源库",
+                            "description":"日漫为主，包括视频、音频、游戏、音乐、出版物、特刊等。"
+                        },
+                        {
+                            "homePage":"https://mikanime.tv/",
+                            "icon":"https://mikanime.tv/favicon.ico",
+                            "name":"密柑计划",
+                            "description":"日漫更新订阅网站"
+                        },
+                        {
+                            "homePage":"https://acgrip.art/",
+                            "icon":"https://acgrip.art/favicon.ico",
+                            "name":"ACG.RIP",
+                            "description":""
+                        },
+                        {
+                            "homePage":"https://dmhy.b168.net/",
+                            "icon":"https://dmhy.b168.net/favicon.ico",
+                            "name":"动漫花园",
+                            "description":""
                         }
                     ]
                 },
@@ -4385,7 +5147,7 @@ var webData = {
                         },
                         {
                             "homePage":"https://ncs.io/",
-                            "icon":"https://ncs.io//favicon.png?_m=1597301782",
+                            "icon":"https://ncs.io/favicon.png?_m=1597301782",
                             "name":"NCS ",
                             "description":"无版权音乐"
                         },
@@ -4411,6 +5173,12 @@ var webData = {
                             "icon": "https://zm-digicol.dpm.org.cn/favicon.ico",
                             "name": "故宫博物院藏品总目",
                             "description": ""
+                        },
+                        {
+                            "homePage":"https://digicol.dpm.org.cn/",
+                            "icon":"https://digicol.dpm.org.cn/favicon.ico",
+                            "name":"故宫博物院数字文物库",
+                            "description":""
                         },
                         {
                             "homePage": "http://120.25.237.190/hanfu/index.html",
@@ -4441,6 +5209,12 @@ var webData = {
                             "icon": "http://lvyou168.cn/favicon.ico",
                             "name": "V&A博物馆",
                             "description": ""
+                        },
+                        {
+                            "homePage":"https://artvee.com/",
+                            "icon":"https://artvee.com/favicon.ico",
+                            "name":"Artvee",
+                            "description":"浏览和下载高分辨率的公共领域艺术品"
                         }
                     ]
                 }
@@ -4506,17 +5280,93 @@ var webData = {
                             "icon":"https://github.com/favicon.ico",
                             "name":"妖怪生平志",
                             "description":"黑神话悟空中妖怪信息"
+                        },
+                        {
+                            "homePage":"https://display.aspiringcode.com:8888/html/17184454966205/",
+                            "icon":"",
+                            "name":"3d发动机拆解图",
+                            "description":"动画加零件拆解"
+                        },
+                        {
+                            "homePage":"https://aether-gazer.amyang.dev/,https://github.com/AmyangXYZ/AetherGazer_Vue",
+                            "icon":"https://aether-gazer.amyang.dev/favicon.png",
+                            "name":"Aether Gazer",
+                            "description":"深空之眼MMD模型展示。"
+                        },
+                        {
+                            "homePage":"https://countrymeters.info/cn",
+                            "icon":"https://countrymeters.info/favicon.ico",
+                            "name":"人口实时统计",
+                            "description":"实时统计当前地球人口数"
+                        },
+                        {
+                            "homePage":"https://neal.fun/deep-sea/",
+                            "icon":"https://neal.fun/favicons/deep-sea.png",
+                            "name":"海洋动物",
+                            "description":"网页展示不同海洋深度的动物"
+                        },
+                        {
+                            "homePage":"https://www.bluemarinefoundation.com/the-sea-we-breathe/",
+                            "icon":"https://www.bluemarinefoundation.com/favicon.ico",
+                            "name":"深海",
+                            "description":"动效逼真绚丽，带你进入海底世界遨游，互动式的体验"
+                        },
+                        {
+                            "homePage":"https://zhuanlan.zhihu.com/p/589582237",
+                            "icon":"https://zhuanlan.zhihu.com/favicon.ico",
+                            "name":"家庭服务器方案",
+                            "description":"从硬件到软件，硬件diy、软路由、低功耗、nas各方面介绍。"
+                        },
+                        {
+                            "homePage":"https://fuun.fun/random",
+                            "icon":"https://fuun.fun/favicon.ico",
+                            "name":"奇趣网站收藏家",
+                            "description":""
                         }
                     ]
                 },
                 {
-                    "tagType": "健体",
+                    "tagType": "睡前故事",
+                    "tagList": [
+                        {
+                            "homePage":"https://beddystories.com/zh",
+                            "icon":"https://beddystories.com/favicon.ico",
+                            "name":"BeddyStories",
+                            "description":"儿童睡前故事"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "电子维修",
+                    "tagList": [
+                        {
+                            "homePage":"https://zh.ifixit.com/",
+                            "icon":"https://zh.ifixit.com/favicon.ico",
+                            "name":"iFixit",
+                            "description":"各类电子产品维修"
+                        }
+                    ]
+                },
+                {
+                    "tagType": "强身健体",
                     "tagList": [
                         {
                             "homePage":"https://www.zhihu.com/question/524091077/answer/2409904312,https://www.zhihu.com/question/643202058/answer/3587190116",
                             "icon":"https://static.zhihu.com/heifetz/favicon.ico",
                             "name":"年轻人强身健体",
                             "description":""
+                        },
+                        {
+                            "homePage": "https://manateelazycat.github.io/2023/04/06/fitness-essentials/",
+                            "icon": "https://manateelazycat.github.io/favicon.ico",
+                            "name": "健身要点",
+                            "description": "王勇健身总结"
+                        },
+                        {
+                            "homePage":"https://github.com/AnsonZnl/RehabilitationGuide/blob/main/README.md",
+                            "icon":"https://github.com/favicon.ico",
+                            "name":"RehabilitationGuide",
+                            "description":"健身要义，主要包括，八段锦、五禽戏、八部金刚经、站桩。"
                         }
                     ]
                 },
@@ -4700,6 +5550,18 @@ var webData = {
                     ]
                 },
                 {
+                    "tagType": "表白",
+                    "tagList": [
+                        {
+                            "homePage":"https://sun0225sun.github.io/Awesome-Love-Code/,https://github.com/sun0225SUN/Awesome-Love-Code",
+                            "icon":"",
+                            "name":"Awesome-Love-Code",
+                            "description":"表白代码收藏馆~谁说程序猿不懂浪漫❤️，多种语言多种形式表白样式。"
+                        }
+
+                    ]
+                },
+                {
                     "tagType": "医学",
                     "tagList": [
                         {
@@ -4733,7 +5595,7 @@ var webData = {
                             "description":""
                         },
                         {
-                            "homePage":"http://mgk.86dk.com/",
+                            "homePage":"http://mgk.86dk.com/,http://mgk.86dk.com/liuliang/",
                             "icon":"http://mgk.86dk.com/favicon.ico",
                             "name":"移动芒果卡",
                             "description":""
@@ -4815,18 +5677,18 @@ var webData = {
                             "icon":"https://zhuanlan.zhihu.com/favicon.ico",
                             "name":"爸爸和两个女儿的对话",
                             "description":"通过爸爸和两个女儿的对话，讲述一些简单又深刻的人生哲理。"
-                        }
-
-                    ]
-                },
-                {
-                    "tagType": "健身",
-                    "tagList": [
+                        },
                         {
-                            "homePage": "https://manateelazycat.github.io/2023/04/06/fitness-essentials/",
-                            "icon": "https://manateelazycat.github.io/favicon.ico",
-                            "name": "健身要点",
-                            "description": "王勇健身总结"
+                            "homePage":"https://mp.weixin.qq.com/s/EulYyzGU5fuA3Lv0wgS8hw",
+                            "icon":"https://mp.weixin.qq.com/favicon.ico",
+                            "name":"段永平采访",
+                            "description":"2025年段永平浙大采访，有很多值得借鉴的观点和人生态度。"
+                        },
+                        {
+                            "homePage":"https://self-consistent-coder.readthedocs.io/zh-cn/latest/preface/,https://github.com/zhangchenchen/self-consistent-coder",
+                            "icon":"https://self-consistent-coder.readthedocs.io/favicon.ico",
+                            "name":"自洽的程序员",
+                            "description":"北大毕业生工作十年后写的关于工作职场焦虑生活未来多方面的反省和输出，焦虑时，多读读。"
                         }
 
                     ]
@@ -4872,7 +5734,7 @@ var webData = {
                     "tagList": [
                         {
                             "homePage": "https://www.instructables.com/",
-                            "icon": "https://www.instructables.com//assets/img/siteassets/favicon.ico",
+                            "icon": "https://www.instructables.com/assets/img/siteassets/favicon.ico",
                             "name": "Instructables",
                             "description": "国外DIY教程网站"
                         },
@@ -4887,17 +5749,6 @@ var webData = {
                             "icon":"https://www.construct101.com/favicon.ico",
                             "name":"construct101",
                             "description":"喜欢diy的国外博主网站"
-                        }
-                    ]
-                },
-                {
-                    "tagType":"趣味",
-                    "tagList":[
-                        {
-                            "homePage":"https://aether-gazer.amyang.dev/,https://github.com/AmyangXYZ/AetherGazer_Vue",
-                            "icon":"https://aether-gazer.amyang.dev//favicon.png",
-                            "name":"Aether Gazer",
-                            "description":"深空之眼MMD模型展示。"
                         }
                     ]
                 },
@@ -4961,6 +5812,24 @@ var webData = {
                             "icon":"https://res.szse.cn/common/images/favicon.ico",
                             "name":"深市A股列表",
                             "description":""
+                        },
+                        {
+                            "homePage":"https://www.tgb.cn/blog/7467511",
+                            "icon":"https://www.tgb.cn/favicon.ico",
+                            "name":"孤沐清风",
+                            "description":"学习炒股技术"
+                        }
+
+                    ]
+                },
+                {
+                    "tagType": "股票经验",
+                    "tagList": [
+                        {
+                            "homePage":"https://zhuanlan.zhihu.com/p/15090808436",
+                            "icon":"https://zhuanlan.zhihu.com/favicon.ico",
+                            "name":"牢记量价关系",
+                            "description":""
                         }
 
                     ]
@@ -4999,8 +5868,8 @@ var webData = {
                             "description":""
                         },
                         {
-                            "homePage":"https://www.taoguba.com.cn/",
-                            "icon":"https://www.taoguba.com.cn/favicon.ico",
+                            "homePage":"https://www.tgb.cn/",
+                            "icon":"https://www.tgb.cn/favicon.ico",
                             "name":"淘股吧",
                             "description":"专业投资A股股票炒股论坛交流分享社区"
                         },
@@ -5033,6 +5902,12 @@ var webData = {
                             "icon": "https://static.zhihu.com/heifetz/favicon.ico",
                             "name": "阳光下的沈同学",
                             "description": "股票交易"
+                        },
+                        {
+                            "homePage": "https://www.zhihu.com/question/594190060/answer/3120347766",
+                            "icon": "https://static.zhihu.com/heifetz/favicon.ico",
+                            "name": "男朋友沉迷于股票，整个人都变了，怎么办？",
+                            "description": ""
                         }
 
                     ]
